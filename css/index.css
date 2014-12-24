@@ -1,0 +1,1443 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 0.875em/1.38 'Aller Light';
+  color: rgb(0, 0, 0);
+}
+
+.about {
+  float: left;
+  width: 29.375%;
+  height: 245px;
+  margin: 43px 0 0 1.56413%;
+}
+
+.about_text {
+  float: left;
+  clear: both;
+  width: 99.7362012987%;
+  min-height: 210px;
+  margin-top: 11px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.about_title {
+  float: left;
+  margin-left: 38.29787%;
+  font: normal 1.286em/1.38 DustismoRoman;
+  color: rgb(0, 0, 0);
+}
+
+.ahrc {
+  display: block;
+  position: relative;
+  float: left;
+  z-index: 22;
+  width: 13.4422110552%;
+  height: auto;
+  margin: -182px 0 0 86.47731%;
+  overflow: hidden;
+}
+
+.collaboration {
+  position: relative;
+  float: left;
+  clear: both;
+}
+
+.collaboration-bg {
+  position: relative;
+  float: left;
+  z-index: 19;
+  width: 150.8011310084%;
+  height: 282px;
+  margin: -22px 0 0 -25.38081%;
+  border-bottom: 2px solid rgb(142, 177, 215);
+  background-color: rgb(255, 255, 255);
+}
+
+.contact_form {
+  float: left;
+  width: 27.9166666666%;
+  height: 254px;
+  margin: 43px 0 0 9.45801%;
+}
+
+.contact_title {
+  float: left;
+  margin-left: 34.52076%;
+  font: normal 1.286em/1.38 DustismoRoman;
+  color: rgb(0, 0, 0);
+}
+
+.disclaimer {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 77px;
+}
+
+.disclaimer_text {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: 56;
+  width: 69.5989583333%;
+  height: 47px;
+  margin: 0 auto;
+}
+
+.ehrc {
+  position: relative;
+  float: left;
+  z-index: 23;
+  width: 21.7081501256%;
+  min-height: 63px;
+  margin: -156px 0 0 29.49317%;
+  font-size: 1.571em;
+  font-weight: 400;
+  line-height: 1;
+  color: rgb(0, 0, 0);
+}
+
+.element {
+  position: relative;
+  float: left;
+  z-index: 53;
+  width: 100%;
+  height: 77px;
+  background-color: rgb(0, 0, 0);
+}
+
+.email {
+  display: block;
+  float: left;
+  clear: both;
+  width: 99.8538669064%;
+  height: 27px;
+  margin-top: 8px;
+  padding: 0 10px;
+  border-radius: 3px;
+  background-color: rgb(253, 218, 135);
+  font: normal 0.929em/1.38 Aller;
+  color: rgb(225, 127, 0);
+}
+
+.facebook {
+  display: block;
+  float: left;
+  width: 42px;
+  height: auto;
+  overflow: hidden;
+}
+
+.featured-bg {
+  position: relative;
+  float: left;
+  z-index: 27;
+  width: 100%;
+  height: 460px;
+  border-bottom: 2px solid rgb(225, 127, 0);
+  background: url('../images/bg-image(2).png') rgb(132, 75, 1);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center top;
+  background-attachment: fixed;
+  overflow: visible;
+}
+
+.featured-object {
+  position: absolute;
+  top: 0;
+  left: 6.4990234375%;
+  z-index: 31;
+  width: 408px;
+  height: 340px;
+}
+
+.footer {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 365px;
+  background-color: rgb(225, 127, 0);
+}
+
+.footer_contents {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 1199px;
+  height: 365px;
+  margin: 0 auto;
+  background-color: #fdb13f;
+}
+
+.footer_contents_contents {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 17;
+  width: 960px;
+  height: 314px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 166px;
+  background-color: rgb(12, 22, 31);
+}
+
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 37;
+  width: 100%;
+  height: 166px;
+  margin: 0 auto;
+  background-color: rgb(12, 12, 12);
+}
+
+.header-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  width: 960px;
+  height: 166px;
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 460px;
+  background-color: rgb(163, 91, 0);
+}
+
+.hero-content {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  z-index: 35;
+  width: 960px;
+  height: 354px;
+  margin: 0 auto;
+}
+
+.hrf {
+  position: relative;
+  float: left;
+  z-index: 24;
+  width: 21.7081501256%;
+  min-height: 63px;
+  margin: -156px 0 0 56.75055%;
+  font-size: 1.571em;
+  font-weight: 400;
+  line-height: 1;
+  color: rgb(0, 0, 0);
+}
+
+.ehrc p,
+.hrf p {
+  margin-bottom: 0.1em;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  top: 99px;
+  left: 0;
+  z-index: 30;
+  width: 408px;
+  height: auto;
+  overflow: hidden;
+}
+
+.intro-text {
+  position: absolute;
+  top: 52px;
+  left: 0;
+  right: 0;
+  z-index: 32;
+  width: 336px;
+  height: 250px;
+  min-height: 250px;
+  margin: 0 auto;
+  font: normal 1em/1.38 Aller-Light;
+  color: rgb(255, 255, 255);
+}
+
+.introduction .introduction {
+  margin: 0 auto;
+  font-size: 1.429em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  position: absolute;
+  top: 21px;
+  left: 0;
+  right: 0;
+  z-index: 25;
+  width: 796px;
+  height: 192px;
+  margin: 0 auto;
+}
+
+.logo .collaboration {
+  z-index: 20;
+  margin: -260px 0 0 44.33496%;
+  font-size: 0.857em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.main-nav {
+  height: 17px;
+}
+
+.main-nav .main-nav {
+  float: left;
+  width: 99.9097083186%;
+}
+
+.message {
+  display: block;
+  float: left;
+  clear: both;
+  width: 99.8538669064%;
+  height: 115px;
+  margin-top: 9px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: rgb(253, 218, 135);
+  font: normal 0.929em/1.38 Aller;
+  color: rgb(225, 127, 0);
+  resize: none;
+}
+
+.email:focus,
+.message:focus,
+.name:focus {
+  background-color: rgb(254, 233, 185);
+}
+
+.name {
+  display: block;
+  float: left;
+  clear: both;
+  width: 99.8538669064%;
+  height: 27px;
+  margin-top: 9px;
+  padding: 0 10px;
+  border-radius: 3px;
+  background-color: rgb(253, 218, 135);
+  font: normal 0.929em/1.38 Aller;
+  color: rgb(225, 127, 0);
+}
+
+.nav-about {
+  float: left;
+  margin: -2px 0 0 8.50626%;
+  font: normal 0.929em/1.38 Aller;
+  color: rgb(92, 150, 210);
+}
+
+.nav-events,
+.nav-timeline {
+  float: left;
+  margin: -2px 0 0 6.22521%;
+  font: normal 0.929em/1.38 Aller;
+  color: rgb(92, 150, 210);
+}
+
+.nav-home {
+  float: left;
+  margin-top: -2px;
+  font: normal 0.929em/1.38 Aller;
+  color: rgb(92, 150, 210);
+}
+
+.nav-home:hover {
+  border-bottom: 2px solid rgb(225, 127, 0);
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+.nav-links {
+  float: left;
+  margin: -2px 0 0 8.2354299999%;
+  font: normal 0.929em/1.38 Aller;
+  color: rgb(92, 150, 210);
+}
+
+.nav-about:hover,
+.nav-events:hover,
+.nav-links:hover,
+.nav-objects:hover,
+.nav-timeline:hover {
+  border-bottom: 2px solid rgb(225, 127, 0);
+}
+
+.nav-about:active,
+.nav-events:active,
+.nav-home:active,
+.nav-links:active,
+.nav-objects:active,
+.nav-timeline:active {
+  color: rgb(225, 127, 0);
+}
+
+.nav-objects {
+  float: left;
+  margin: -2px 0 0 4.71468%;
+  font: normal 0.929em/1.38 Aller;
+  color: rgb(92, 150, 210);
+}
+
+.object-date {
+  position: absolute;
+  top: 0;
+  left: 20.0980392156%;
+  z-index: 28;
+  font: normal 2.143em/1.38 DustismoRoman;
+  color: rgb(255, 181, 86);
+}
+
+.object-title {
+  position: absolute;
+  top: 41px;
+  left: 33.3218443627%;
+  z-index: 29;
+  font: normal 0.929em/1.38 Aller;
+  color: rgb(253, 218, 135);
+}
+
+.search {
+  display: block;
+  float: right;
+  clear: both;
+  width: 225px;
+  height: 24px;
+  padding: 0 10px;
+  border-bottom: 2px solid rgb(22, 61, 108);
+  border-radius: 3px;
+  background-color: #2a4969;
+  font: 400 0.929em/1.38 Aller;
+  text-align: center;
+  color: #9dbee0;
+}
+
+.search:focus {
+  border-bottom-color: rgb(225, 127, 0);
+  background-color: #15375a;
+  color: #9dbee0;
+}
+
+.social {
+  float: left;
+  width: 22.3958333333%;
+  height: 271px;
+  margin: 43px 0 0 9.28874%;
+}
+
+.social_links {
+  float: left;
+  clear: both;
+  width: 43.4782608695%;
+  height: 42px;
+  margin: 5px 0 0 26.07558%;
+}
+
+.submit {
+  display: block;
+  float: left;
+  clear: both;
+  width: 51.798561151%;
+  height: 29px;
+  margin: 6px 0 0 47.98857%;
+  border-bottom: 2px solid rgb(225, 127, 0);
+  border-radius: 3px;
+  background-color: rgb(253, 218, 135);
+  font: normal 1.143em/1.38 Aller;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.submit:active {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+}
+
+.subtitle {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 40;
+  margin-top: -10px;
+  font: normal 1.143em/1.38 Aller;
+  color: rgb(65, 105, 147);
+}
+
+.text {
+  float: left;
+}
+
+.title {
+  position: relative;
+  float: left;
+  z-index: 39;
+  width: 350px;
+  height: 55px;
+  margin-top: 47px;
+  font: normal 2.857em/1.38 DustismoRoman;
+  color: #fb9902;
+}
+
+.twitter {
+  display: block;
+  float: left;
+  width: 42px;
+  height: auto;
+  margin-left: 6.63658%;
+  overflow: hidden;
+}
+
+.twitter_feed {
+  float: left;
+  width: 100%;
+  height: 224px;
+}
+
+.twitter_feed_placeholder {
+  float: left;
+  clear: both;
+  width: 108.6956521739%;
+  min-height: 186px;
+  margin: 14px 0 0 -9.1569800001%;
+  font-size: 0.786em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.about_text p,
+.twitter_feed_placeholder p {
+  margin-bottom: 1em;
+}
+
+.twitter_title {
+  float: left;
+  margin-left: 20.77035%;
+  font: normal 1.286em/1.38 DustismoRoman;
+  color: rgb(0, 0, 0);
+}
+
+.warwick {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 21;
+  width: 22.864321608%;
+  height: auto;
+  margin: -151px 0 0 -0.04515%;
+  overflow: hidden;
+}
+
+.warwick-logo {
+  display: block;
+  position: relative;
+  float: right;
+  z-index: 49;
+  width: 202px;
+  height: auto;
+  overflow: hidden;
+}
+
+.collaboration-1 {
+  width: 100%;
+  height: 281px;
+  background-color: rgb(183, 183, 183);
+}
+
+.disclaimer-1 {
+  z-index: 52;
+}
+
+.disclaimer-2 {
+  z-index: 57;
+  margin-top: -77px;
+}
+
+.introduction-1 {
+  position: relative;
+  float: left;
+  width: 35%;
+  height: 302px;
+  margin: 52px 0 0 65%;
+}
+
+.main-nav-1 {
+  position: relative;
+  float: right;
+  z-index: 48;
+  width: 410px;
+  margin-top: -17px;
+}
+
+.main-nav-1:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+}
+
+.text-1 {
+  margin-left: 47.00853%;
+  font-weight: normal;
+  color: rgb(65, 105, 147);
+}
+
+.text-2 {
+  clear: both;
+  width: 99.9028110047%;
+  min-height: 23px;
+  margin-top: 8px;
+  font-weight: 400;
+  text-align: center;
+  color: #416993;
+}
+
+@media(max-width: 980px) {
+  .collaboration {
+    margin-top: 5px;
+  }
+
+  .disclaimer {
+    position: relative;
+  }
+
+  .disclaimer .disclaimer_text {
+    left: 15.2%;
+    right: auto;
+    width: 69.693877551%;
+    height: 60px;
+  }
+
+  .disclaimer .element {
+    position: relative;
+    z-index: 53;
+  }
+
+  .footer {
+    position: relative;
+    z-index: 18;
+  }
+
+  .collaboration .logo,
+  .footer .footer_contents,
+  .footer .footer_contents_contents {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer_contents_contents .contact_form {
+    margin-top: 34px;
+    margin-left: 7.25749%;
+  }
+
+  .footer_contents_contents .social {
+    margin-left: 11.48438%;
+  }
+
+  .header {
+    height: 248px;
+  }
+
+  .header .header-bg {
+    left: 0;
+    right: 0;
+    height: 248px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header .header-content {
+    left: 0;
+    right: 0;
+    width: 518px;
+    height: 248px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header-content .search {
+    margin-top: 15px;
+    margin-right: 145px;
+  }
+
+  .header-content .subtitle {
+    position: relative;
+    z-index: 40;
+    margin-left: 21.75133%;
+  }
+
+  .header-content .title {
+    position: relative;
+    z-index: 39;
+    width: 303px;
+    margin-top: 79px;
+    margin-left: 21.04247%;
+  }
+
+  .header-content .warwick-logo {
+    position: relative;
+    clear: both;
+    z-index: 49;
+    width: 133px;
+    height: auto;
+    margin-top: -134px;
+    margin-right: 37.18328%;
+  }
+
+  .hero {
+    height: 600px;
+  }
+
+  .hero .featured-bg {
+    position: relative;
+    z-index: 27;
+    width: 99.8979591836%;
+    height: 604px;
+    background-repeat: repeat-y;
+  }
+
+  .hero .hero-content {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 534px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero-content .featured-object {
+    top: 12px;
+    left: 11.0936329588%;
+    width: 416px;
+    height: 347px;
+  }
+
+  .introduction .intro-text {
+    position: static;
+    top: auto;
+    width: 548px;
+    height: 100px;
+    min-height: 150px;
+    margin-top: 13px;
+    text-align: center;
+  }
+
+  .introduction .introduction {
+    width: 17.7177177177%;
+    margin-top: 38px;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .logo .ahrc {
+    position: relative;
+    z-index: 22;
+    height: auto;
+  }
+
+  .logo .collaboration {
+    position: relative;
+    z-index: 20;
+  }
+
+  .logo .collaboration-bg {
+    position: relative;
+    z-index: 19;
+  }
+
+  .logo .ehrc {
+    position: relative;
+    z-index: 23;
+  }
+
+  .logo .hrf {
+    position: relative;
+    z-index: 24;
+  }
+
+  .logo .warwick {
+    position: relative;
+    z-index: 21;
+    height: auto;
+  }
+
+  .featured-object .image,
+  .social_links .facebook,
+  .social_links .twitter {
+    height: auto;
+  }
+
+  .disclaimer-1 {
+    z-index: 52;
+    margin-top: -227px;
+  }
+
+  .disclaimer-2 {
+    clear: none;
+    z-index: 57;
+    height: 76px;
+    margin-top: 0;
+  }
+
+  .disclaimer_text .text-1 {
+    margin-left: 47.41261%;
+  }
+
+  .disclaimer_text .text-2 {
+    width: 99.8650256222%;
+    margin-top: 5px;
+  }
+
+  .header-content .main-nav-1 {
+    position: relative;
+    clear: both;
+    z-index: 48;
+    margin-top: 34px;
+    margin-right: 10.9556%;
+  }
+
+  .hero-content .introduction-1 {
+    width: 102.6217228464%;
+    height: 228px;
+    margin-top: 359px;
+    margin-left: -1.3079400001%;
+  }
+}
+
+@media(max-width: 900px) {
+  body {
+    font-size: 0.875em;
+  }
+
+  .about .about_text {
+    font-size: 0.929em;
+  }
+
+  .about .about_title {
+    margin-left: 38.2952299999%;
+  }
+
+  .collaboration .logo,
+  .header .header-bg,
+  .header .header-content,
+  .hero .hero-content {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contact_form .contact_title {
+    margin-left: 34.51758%;
+  }
+
+  .contact_form .submit {
+    margin-left: 47.98679%;
+  }
+
+  .disclaimer {
+    position: relative;
+  }
+
+  .disclaimer .disclaimer_text {
+    width: 69.6649305555%;
+  }
+
+  .disclaimer .element {
+    position: relative;
+    z-index: 53;
+  }
+
+  .footer {
+    position: relative;
+    z-index: 18;
+    height: 323px;
+  }
+
+  .footer .footer_contents {
+    left: 0;
+    right: 0;
+    width: 901px;
+    height: 323px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer .footer_contents_contents {
+    left: 0;
+    right: 0;
+    width: 898px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer_contents_contents .about {
+    margin-left: 1.5625%;
+  }
+
+  .footer_contents_contents .contact_form {
+    margin-left: 8.59375%;
+  }
+
+  .footer_contents_contents .social {
+    margin-left: 8.97655%;
+  }
+
+  .header-content .subtitle {
+    position: relative;
+    z-index: 40;
+  }
+
+  .header-content .title {
+    position: relative;
+    z-index: 39;
+  }
+
+  .header-content .warwick-logo {
+    position: relative;
+    z-index: 49;
+    height: auto;
+  }
+
+  .hero .featured-bg {
+    position: relative;
+    z-index: 27;
+  }
+
+  .logo .ahrc {
+    position: relative;
+    z-index: 22;
+    height: auto;
+  }
+
+  .logo .collaboration {
+    position: relative;
+    z-index: 20;
+  }
+
+  .logo .collaboration-bg {
+    position: relative;
+    z-index: 19;
+  }
+
+  .logo .ehrc {
+    position: relative;
+    z-index: 23;
+  }
+
+  .logo .hrf {
+    position: relative;
+    z-index: 24;
+  }
+
+  .logo .warwick {
+    position: relative;
+    z-index: 21;
+    height: auto;
+  }
+
+  .social .social_links {
+    position: relative;
+    z-index: 15;
+    width: 45.7462512625%;
+    margin-top: -5px;
+    margin-left: 25.35157%;
+  }
+
+  .social .twitter_feed {
+    position: relative;
+    z-index: 12;
+  }
+
+  .featured-object .image,
+  .social_links .facebook {
+    height: auto;
+  }
+
+  .social_links .twitter {
+    height: auto;
+    margin-left: 6.60666%;
+  }
+
+  .twitter_feed .twitter_feed_placeholder {
+    margin-left: -9.15236%;
+  }
+
+  .twitter_feed .twitter_title {
+    margin-left: 20.76762%;
+  }
+
+  .disclaimer-1 {
+    z-index: 52;
+    margin-top: -185px;
+  }
+
+  .disclaimer-2 {
+    z-index: 57;
+  }
+
+  .disclaimer_text .text-1 {
+    margin-left: 47.40449%;
+  }
+
+  .disclaimer_text .text-2 {
+    width: 99.9053006703%;
+    margin-top: 8px;
+  }
+
+  .header-content .main-nav-1 {
+    position: relative;
+    z-index: 48;
+  }
+}
+
+@media(max-width: 768px) {
+  .collaboration .logo {
+    left: 0;
+    right: 0;
+    width: 490px;
+    height: 180px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .disclaimer {
+    position: relative;
+    margin-top: -222px;
+  }
+
+  .disclaimer .disclaimer_text {
+    width: 69.6614583333%;
+    height: 205px;
+  }
+
+  .disclaimer .element {
+    position: relative;
+    z-index: 53;
+  }
+
+  .footer {
+    position: relative;
+    z-index: 18;
+  }
+
+  .footer .footer_contents,
+  .footer .footer_contents_contents,
+  .header .header-bg {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer_contents_contents .contact_form {
+    margin-top: 43px;
+    margin-left: 9.45678%;
+  }
+
+  .footer_contents_contents .social {
+    margin-left: 9.2792999999%;
+  }
+
+  .header .header-content {
+    left: 0;
+    right: 0;
+    width: 430px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header-content .search {
+    margin-top: 17px;
+    margin-right: 101px;
+  }
+
+  .header-content .subtitle {
+    position: relative;
+    z-index: 40;
+    margin-left: 15.94477%;
+  }
+
+  .header-content .title {
+    position: relative;
+    z-index: 39;
+    margin-top: 85px;
+    margin-left: 14.9891%;
+  }
+
+  .header-content .warwick-logo {
+    position: relative;
+    z-index: 49;
+    height: auto;
+    margin-top: -140px;
+    margin-right: 34.14244%;
+  }
+
+  .hero .featured-bg {
+    position: relative;
+    z-index: 27;
+    width: 100%;
+  }
+
+  .hero .hero-content {
+    top: 25px;
+    left: 0;
+    right: 0;
+    height: 579px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero-content .featured-object {
+    top: 2px;
+    left: 11.6104868913%;
+    width: 411px;
+  }
+
+  .introduction .intro-text {
+    float: left;
+    clear: both;
+    width: 470px;
+    height: 150px;
+    margin-top: 25px;
+    margin-right: 0;
+    margin-left: 7.15956%;
+  }
+
+  .collaboration-1,
+  .introduction .introduction {
+    margin-top: 0;
+  }
+
+  .logo .ahrc {
+    position: relative;
+    z-index: 22;
+    height: auto;
+    margin-top: -172px;
+    margin-left: 86.53061%;
+  }
+
+  .logo .collaboration {
+    position: relative;
+    z-index: 20;
+    margin-left: 40.92156%;
+  }
+
+  .logo .collaboration-bg {
+    position: relative;
+    z-index: 19;
+    width: 156.7346938775%;
+    margin-left: -28.36735%;
+  }
+
+  .logo .ehrc {
+    position: relative;
+    z-index: 23;
+    width: 24.2857142857%;
+    margin-left: 29.59184%;
+    font-size: 1.071em;
+  }
+
+  .logo .hrf {
+    position: relative;
+    z-index: 24;
+    margin-left: 57.96556%;
+    font-size: 1.071em;
+  }
+
+  .logo .warwick {
+    position: relative;
+    z-index: 21;
+    height: auto;
+    margin-left: -0.03827%;
+  }
+
+  .main-nav .nav-about {
+    margin-left: 8.50413%;
+  }
+
+  .main-nav .nav-events,
+  .main-nav .nav-timeline {
+    margin-left: 6.22515%;
+  }
+
+  .main-nav .nav-links {
+    margin-left: 8.23264%;
+  }
+
+  .main-nav .nav-objects {
+    margin-left: 4.71092%;
+  }
+
+  .social .social_links {
+    position: relative;
+    z-index: 15;
+    margin-top: 5px;
+    margin-left: 26.07412%;
+  }
+
+  .social .twitter_feed {
+    position: relative;
+    z-index: 12;
+  }
+
+  .featured-object .image,
+  .social_links .facebook,
+  .social_links .twitter {
+    height: auto;
+  }
+
+  .disclaimer-1 {
+    z-index: 52;
+  }
+
+  .disclaimer-2 {
+    z-index: 57;
+    height: 215px;
+  }
+
+  .disclaimer_text .text-1 {
+    margin-left: 47.39194%;
+  }
+
+  .disclaimer_text .text-2 {
+    width: 99.9094626168%;
+    margin-top: 153px;
+    margin-left: -0.04965%;
+  }
+
+  .header-content .main-nav-1 {
+    position: relative;
+    z-index: 48;
+    width: 409px;
+    margin-top: 24px;
+    margin-right: 1.39535%;
+  }
+
+  .hero-content .introduction-1 {
+    height: 206px;
+    margin-top: 356px;
+    margin-left: -1.29916%;
+  }
+}
+
+@media(max-width: 480px) {
+  body {
+    font-size: 0.875em;
+  }
+
+  .disclaimer {
+    position: relative;
+  }
+
+  .disclaimer .disclaimer_text {
+    width: 69.7916666666%;
+    height: 231px;
+  }
+
+  .disclaimer .element {
+    position: relative;
+    z-index: 53;
+  }
+
+  .footer {
+    position: relative;
+    z-index: 18;
+  }
+
+  .collaboration .logo,
+  .footer .footer_contents,
+  .footer .footer_contents_contents,
+  .header .header-bg,
+  .header .header-content {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header-content .search {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .header-content .subtitle {
+    position: relative;
+    z-index: 40;
+    margin-left: 0;
+  }
+
+  .header-content .title {
+    position: relative;
+    z-index: 39;
+    margin-top: 47px;
+    margin-left: 0;
+  }
+
+  .header-content .warwick-logo {
+    position: relative;
+    z-index: 49;
+    height: auto;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .hero .featured-bg {
+    position: relative;
+    z-index: 27;
+    width: 139.0625%;
+    margin-left: -13.90625%;
+  }
+
+  .hero .hero-content {
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .hero-content .featured-object {
+    left: 11.0486891385%;
+  }
+
+  .introduction .intro-text {
+    margin-left: 0;
+  }
+
+  .logo .ahrc {
+    position: relative;
+    z-index: 22;
+    height: auto;
+    margin-top: -182px;
+    margin-left: 86.47321%;
+  }
+
+  .logo .collaboration {
+    position: relative;
+    z-index: 20;
+    margin-left: 44.33355%;
+  }
+
+  .logo .collaboration-bg {
+    position: relative;
+    z-index: 19;
+    margin-left: -25.37628%;
+  }
+
+  .logo .ehrc {
+    position: relative;
+    z-index: 23;
+    margin-left: 29.4898%;
+  }
+
+  .logo .hrf {
+    position: relative;
+    z-index: 24;
+    margin-left: 56.74745%;
+  }
+
+  .logo .warwick {
+    position: relative;
+    z-index: 21;
+    height: auto;
+  }
+
+  .social .social_links {
+    position: relative;
+    z-index: 15;
+  }
+
+  .social .twitter_feed {
+    position: relative;
+    z-index: 12;
+  }
+
+  .featured-object .image,
+  .social_links .facebook,
+  .social_links .twitter {
+    height: auto;
+  }
+
+  .disclaimer-1 {
+    z-index: 52;
+  }
+
+  .disclaimer-2 {
+    z-index: 57;
+    height: 241px;
+  }
+
+  .disclaimer_text .text-1 {
+    margin-left: 47.34142%;
+  }
+
+  .disclaimer_text .text-2 {
+    width: 99.7248134328%;
+    margin-left: -0.00933%;
+  }
+
+  .header-content .main-nav-1 {
+    position: relative;
+    z-index: 48;
+    margin-top: -17px;
+    margin-right: 0;
+  }
+
+  .hero-content .introduction-1 {
+    position: relative;
+    z-index: 34;
+    margin-top: 196px;
+    margin-left: 64.99883%;
+  }
+}
