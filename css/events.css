@@ -1,4 +1,445 @@
 body {
   background-color: rgb(255, 255, 255);
-  font-size: 1em;
+  font: normal 0.875em/1.38 Aller;
+  color: rgb(0, 0, 0);
+}
+
+.about {
+  float: left;
+  width: 29.375%;
+  height: 245px;
+  margin: 43px 0 0 1.56413%;
+}
+
+.about_text {
+  float: left;
+  clear: both;
+  width: 99.7362012987%;
+  min-height: 210px;
+  margin-top: 11px;
+  font: 400 1em/1.38 'Aller Light';
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.about_text p {
+  margin-bottom: 1em;
+}
+
+.about_title {
+  float: left;
+  margin-left: 38.29787%;
+  font: 1.286em/1.38 DustismoRoman;
+  color: rgb(0, 0, 0);
+}
+
+.contact_form {
+  float: left;
+  width: 27.9166666666%;
+  height: 254px;
+  margin: 43px 0 0 9.45801%;
+}
+
+.contact_title {
+  float: left;
+  margin-left: 34.52076%;
+  font: 1.286em/1.38 DustismoRoman;
+  color: rgb(0, 0, 0);
+}
+
+.disclaimer {
+  float: left;
+  width: 100%;
+  height: 77px;
+}
+
+.disclaimer .disclaimer {
+  position: relative;
+}
+
+.disclaimer_text {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: 18;
+  width: 836px;
+  height: 47px;
+  margin: 0 auto;
+}
+
+.element {
+  position: relative;
+  float: left;
+  z-index: 15;
+  width: 100%;
+  height: 77px;
+  background-color: rgb(0, 0, 0);
+}
+
+.email {
+  display: block;
+  float: left;
+  clear: both;
+  width: 99.8538669064%;
+  height: 27px;
+  margin-top: 8px;
+  padding: 0 10px;
+  border-radius: 3px;
+  background-color: rgb(253, 218, 135);
+  font-size: 0.929em;
+  line-height: 1.38;
+  color: rgb(225, 127, 0);
+}
+
+.facebook {
+  display: block;
+  float: left;
+  width: 42px;
+  height: auto;
+  overflow: hidden;
+}
+
+.footer {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 365px;
+  margin-top: 711px;
+  background-color: rgb(225, 127, 0);
+}
+
+.footer_contents {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 21;
+  width: 1199px;
+  height: 365px;
+  margin: 0 auto;
+  background-color: #fdb13f;
+}
+
+.footer_contents_contents {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 38;
+  width: 960px;
+  height: 314px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 166px;
+  background-color: rgb(12, 22, 31);
+}
+
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 166px;
+  margin: 0 auto;
+  background-color: rgb(12, 12, 12);
+}
+
+.header-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 13;
+  width: 960px;
+  height: 166px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  height: 17px;
+}
+
+.main-nav .main-nav {
+  float: left;
+  width: 99.9097083186%;
+}
+
+.message {
+  display: block;
+  float: left;
+  clear: both;
+  width: 99.8538669064%;
+  height: 115px;
+  margin-top: 9px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: rgb(253, 218, 135);
+  font-size: 0.929em;
+  line-height: 1.38;
+  color: rgb(225, 127, 0);
+  resize: none;
+}
+
+.email:focus,
+.message:focus,
+.name:focus {
+  background-color: rgb(254, 233, 185);
+}
+
+.name {
+  display: block;
+  float: left;
+  clear: both;
+  width: 99.8538669064%;
+  height: 27px;
+  margin-top: 9px;
+  padding: 0 10px;
+  border-radius: 3px;
+  background-color: rgb(253, 218, 135);
+  font-size: 0.929em;
+  line-height: 1.38;
+  color: rgb(225, 127, 0);
+}
+
+.nav-about {
+  float: left;
+  margin: -2px 0 0 8.50626%;
+  font-size: 0.929em;
+  line-height: 1.38;
+  color: rgb(92, 150, 210);
+}
+
+.nav-events,
+.nav-timeline {
+  float: left;
+  margin: -2px 0 0 6.22521%;
+  font-size: 0.929em;
+  line-height: 1.38;
+  color: rgb(92, 150, 210);
+}
+
+.nav-home {
+  float: left;
+  margin-top: -2px;
+  font-size: 0.929em;
+  line-height: 1.38;
+  color: rgb(92, 150, 210);
+}
+
+.nav-home:hover {
+  border-bottom: 2px solid rgb(225, 127, 0);
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+.nav-links {
+  float: left;
+  margin: -2px 0 0 8.2354299999%;
+  font-size: 0.929em;
+  line-height: 1.38;
+  color: rgb(92, 150, 210);
+}
+
+.nav-about:hover,
+.nav-events:hover,
+.nav-links:hover,
+.nav-objects:hover,
+.nav-timeline:hover {
+  border-bottom: 2px solid rgb(225, 127, 0);
+}
+
+.nav-about:active,
+.nav-events:active,
+.nav-home:active,
+.nav-links:active,
+.nav-objects:active,
+.nav-timeline:active {
+  color: rgb(225, 127, 0);
+}
+
+.nav-objects {
+  float: left;
+  margin: -2px 0 0 4.71468%;
+  font-size: 0.929em;
+  line-height: 1.38;
+  color: rgb(92, 150, 210);
+}
+
+.search {
+  display: block;
+  float: right;
+  clear: both;
+  width: 225px;
+  height: 24px;
+  padding: 0 10px;
+  border-bottom: 2px solid rgb(22, 61, 108);
+  border-radius: 3px;
+  background-color: #2a4969;
+  font-size: 0.929em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: #9dbee0;
+}
+
+.search:focus {
+  border-bottom-color: rgb(225, 127, 0);
+  background-color: #15375a;
+  color: #9dbee0;
+}
+
+.social {
+  float: left;
+  width: 22.3958333333%;
+  height: 271px;
+  margin: 43px 0 0 9.28874%;
+}
+
+.social_links {
+  float: left;
+  clear: both;
+  width: 43.4782608695%;
+  height: 42px;
+  margin: 5px 0 0 26.07558%;
+}
+
+.submit {
+  display: block;
+  float: left;
+  clear: both;
+  width: 51.798561151%;
+  height: 29px;
+  margin: 6px 0 0 47.98857%;
+  border-bottom: 2px solid rgb(225, 127, 0);
+  border-radius: 3px;
+  background-color: rgb(253, 218, 135);
+  font-size: 1.143em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.submit:active {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+}
+
+.subtitle {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 3;
+  margin-top: -10px;
+  font-size: 1.143em;
+  line-height: 1.38;
+  color: rgb(65, 105, 147);
+}
+
+.text {
+  float: left;
+  line-height: 1.38;
+}
+
+.title {
+  position: relative;
+  float: left;
+  z-index: 2;
+  width: 350px;
+  height: 55px;
+  margin-top: 47px;
+  font: 2.857em/1.38 DustismoRoman;
+  color: #fb9902;
+}
+
+.twitter {
+  display: block;
+  float: left;
+  width: 42px;
+  height: auto;
+  margin-left: 6.63658%;
+  overflow: hidden;
+}
+
+.twitter_feed {
+  float: left;
+  width: 100%;
+  height: 224px;
+}
+
+.twitter_feed_placeholder {
+  float: left;
+  clear: both;
+  width: 108.6956521739%;
+  min-height: 186px;
+  margin: 14px 0 0 -9.1569800001%;
+  font: 400 0.786em/1.38 'Aller Light';
+  color: rgb(0, 0, 0);
+}
+
+.twitter_title {
+  float: left;
+  margin-left: 20.77035%;
+  font: 1.286em/1.38 DustismoRoman;
+  color: rgb(0, 0, 0);
+}
+
+.warwick-logo {
+  display: block;
+  position: relative;
+  float: right;
+  z-index: 12;
+  width: 202px;
+  height: auto;
+  overflow: hidden;
+}
+
+.disclaimer-1 {
+  margin-top: 365px;
+}
+
+.main-nav-1 {
+  position: relative;
+  float: right;
+  z-index: 11;
+  width: 410px;
+  margin-top: -17px;
+}
+
+.main-nav-1:hover {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
+}
+
+.text-1 {
+  margin-left: 47.0077%;
+  font-size: 0.714em;
+  color: rgb(65, 105, 147);
+}
+
+.text-2 {
+  clear: both;
+  width: 99.9028110047%;
+  min-height: 23px;
+  margin-top: 8px;
+  font-size: 0.643em;
+  text-align: center;
+  color: #416993;
 }

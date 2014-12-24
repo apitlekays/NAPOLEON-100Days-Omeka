@@ -39,7 +39,7 @@ body {
   display: block;
   position: relative;
   float: left;
-  z-index: 22;
+  z-index: 28;
   width: 13.4422110552%;
   height: auto;
   margin: -182px 0 0 86.47731%;
@@ -55,7 +55,7 @@ body {
 .collaboration-bg {
   position: relative;
   float: left;
-  z-index: 19;
+  z-index: 25;
   width: 150.8011310084%;
   height: 282px;
   margin: -22px 0 0 -25.38081%;
@@ -78,11 +78,13 @@ body {
 }
 
 .disclaimer {
-  position: relative;
   float: left;
-  clear: both;
   width: 100%;
   height: 77px;
+}
+
+.disclaimer .disclaimer {
+  position: relative;
 }
 
 .disclaimer_text {
@@ -90,7 +92,7 @@ body {
   top: 10px;
   left: 0;
   right: 0;
-  z-index: 56;
+  z-index: 3;
   width: 836px;
   height: 47px;
   margin: 0 auto;
@@ -99,7 +101,7 @@ body {
 .ehrc {
   position: relative;
   float: left;
-  z-index: 23;
+  z-index: 29;
   width: 21.7081501256%;
   min-height: 63px;
   margin: -156px 0 0 29.49317%;
@@ -112,7 +114,7 @@ body {
 .element {
   position: relative;
   float: left;
-  z-index: 53;
+  z-index: 0;
   width: 100%;
   height: 77px;
   background-color: rgb(0, 0, 0);
@@ -143,7 +145,7 @@ body {
 .featured-bg {
   position: relative;
   float: left;
-  z-index: 27;
+  z-index: 33;
   width: 100%;
   height: 460px;
   border-bottom: 2px solid rgb(225, 127, 0);
@@ -159,7 +161,7 @@ body {
   position: absolute;
   top: 0;
   left: 6.4990234375%;
-  z-index: 31;
+  z-index: 37;
   width: 408px;
   height: 340px;
 }
@@ -178,6 +180,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 6;
   width: 1199px;
   height: 365px;
   margin: 0 auto;
@@ -189,7 +192,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 17;
+  z-index: 23;
   width: 960px;
   height: 314px;
   margin: 0 auto;
@@ -208,7 +211,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 37;
+  z-index: 43;
   width: 100%;
   height: 166px;
   margin: 0 auto;
@@ -220,7 +223,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 50;
+  z-index: 56;
   width: 960px;
   height: 166px;
   margin: 0 auto;
@@ -240,7 +243,7 @@ body {
   top: 40px;
   left: 0;
   right: 0;
-  z-index: 35;
+  z-index: 41;
   width: 960px;
   height: 354px;
   margin: 0 auto;
@@ -249,7 +252,7 @@ body {
 .hrf {
   position: relative;
   float: left;
-  z-index: 24;
+  z-index: 30;
   width: 21.7081501256%;
   min-height: 63px;
   margin: -156px 0 0 56.75055%;
@@ -269,7 +272,7 @@ body {
   position: absolute;
   top: 99px;
   left: 0;
-  z-index: 30;
+  z-index: 36;
   width: 408px;
   height: auto;
   overflow: hidden;
@@ -280,7 +283,7 @@ body {
   top: 52px;
   left: 0;
   right: 0;
-  z-index: 32;
+  z-index: 38;
   width: 336px;
   height: 250px;
   min-height: 250px;
@@ -302,14 +305,14 @@ body {
   top: 21px;
   left: 0;
   right: 0;
-  z-index: 25;
+  z-index: 31;
   width: 796px;
   height: 192px;
   margin: 0 auto;
 }
 
 .logo .collaboration {
-  z-index: 20;
+  z-index: 26;
   margin: -260px 0 0 44.33496%;
   font-size: 0.857em;
   font-weight: 400;
@@ -429,7 +432,7 @@ body {
   position: absolute;
   top: 0;
   left: 20.0980392156%;
-  z-index: 28;
+  z-index: 34;
   font: 2.143em/1.38 DustismoRoman;
   color: rgb(255, 181, 86);
 }
@@ -438,7 +441,7 @@ body {
   position: absolute;
   top: 41px;
   left: 33.3218443627%;
-  z-index: 29;
+  z-index: 35;
   font: 0.929em/1.38 Aller;
   color: rgb(253, 218, 135);
 }
@@ -506,7 +509,7 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 40;
+  z-index: 46;
   margin-top: -10px;
   font: 1.143em/1.38 Aller;
   color: rgb(65, 105, 147);
@@ -521,7 +524,7 @@ body {
 .title {
   position: relative;
   float: left;
-  z-index: 39;
+  z-index: 45;
   width: 350px;
   height: 55px;
   margin-top: 47px;
@@ -568,7 +571,7 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 21;
+  z-index: 27;
   width: 22.864321608%;
   height: auto;
   margin: -151px 0 0 -0.04515%;
@@ -579,7 +582,7 @@ body {
   display: block;
   position: relative;
   float: right;
-  z-index: 49;
+  z-index: 55;
   width: 202px;
   height: auto;
   overflow: hidden;
@@ -592,12 +595,7 @@ body {
 }
 
 .disclaimer-1 {
-  z-index: 52;
-}
-
-.disclaimer-2 {
-  z-index: 57;
-  margin-top: -77px;
+  margin-top: 365px;
 }
 
 .introduction-1 {
@@ -611,7 +609,7 @@ body {
 .main-nav-1 {
   position: relative;
   float: right;
-  z-index: 48;
+  z-index: 54;
   width: 410px;
   margin-top: -17px;
 }
@@ -670,8 +668,9 @@ body {
     margin-left: 47.98679%;
   }
 
-  .disclaimer {
-    position: relative;
+  .disclaimer .disclaimer {
+    height: 76px;
+    margin-top: 227px;
   }
 
   .disclaimer .disclaimer_text {
@@ -683,7 +682,7 @@ body {
 
   .disclaimer .element {
     position: relative;
-    z-index: 53;
+    z-index: 0;
     height: 101px;
   }
 
@@ -703,8 +702,6 @@ body {
   }
 
   .footer {
-    position: relative;
-    z-index: 18;
     height: 323px;
   }
 
@@ -728,7 +725,7 @@ body {
 
   .footer_contents_contents .about {
     position: relative;
-    z-index: 3;
+    z-index: 9;
     margin-left: 1.5625%;
   }
 
@@ -739,8 +736,8 @@ body {
 
   .footer_contents_contents .social {
     position: relative;
-    z-index: 16;
-    margin-left: 11.44731%;
+    z-index: 22;
+    margin-left: 11.43861%;
   }
 
   .header {
@@ -771,13 +768,13 @@ body {
 
   .header-content .subtitle {
     position: relative;
-    z-index: 40;
+    z-index: 46;
     margin-left: 21.75133%;
   }
 
   .header-content .title {
     position: relative;
-    z-index: 39;
+    z-index: 45;
     width: 303px;
     margin-top: 79px;
     margin-left: 21.04247%;
@@ -786,7 +783,7 @@ body {
   .header-content .warwick-logo {
     position: relative;
     clear: both;
-    z-index: 49;
+    z-index: 55;
     width: 133px;
     height: auto;
     margin-top: -134px;
@@ -799,7 +796,7 @@ body {
 
   .hero .featured-bg {
     position: relative;
-    z-index: 27;
+    z-index: 33;
     width: 99.8979591836%;
     height: 604px;
     background-repeat: repeat-y;
@@ -841,40 +838,40 @@ body {
 
   .logo .ahrc {
     position: relative;
-    z-index: 22;
+    z-index: 28;
     height: auto;
     margin-left: 86.4764%;
   }
 
   .logo .collaboration {
     position: relative;
-    z-index: 20;
+    z-index: 26;
     margin-left: 44.33355%;
   }
 
   .logo .collaboration-bg {
     position: relative;
-    z-index: 19;
+    z-index: 25;
     width: 156.7346938775%;
     margin-left: -25.37628%;
   }
 
   .logo .ehrc {
     position: relative;
-    z-index: 23;
+    z-index: 29;
     width: 24.2857142857%;
     margin-left: 29.4898%;
   }
 
   .logo .hrf {
     position: relative;
-    z-index: 24;
+    z-index: 30;
     margin-left: 56.74745%;
   }
 
   .logo .warwick {
     position: relative;
-    z-index: 21;
+    z-index: 27;
     height: auto;
     margin-left: -0.03827%;
   }
@@ -907,7 +904,7 @@ body {
 
   .social_links .twitter {
     height: auto;
-    margin-left: 6.62364%;
+    margin-left: 6.60666%;
   }
 
   .twitter_feed .twitter_feed_placeholder {
@@ -916,18 +913,6 @@ body {
 
   .twitter_feed .twitter_title {
     margin-left: 20.76762%;
-  }
-
-  .disclaimer-1 {
-    z-index: 52;
-    margin-top: -227px;
-  }
-
-  .disclaimer-2 {
-    clear: none;
-    z-index: 57;
-    height: 76px;
-    margin-top: 0;
   }
 
   .disclaimer_text .text-1 {
@@ -939,10 +924,16 @@ body {
     margin-top: 5px;
   }
 
+  .footer .disclaimer-1 {
+    position: relative;
+    z-index: 5;
+    margin-top: 96px;
+  }
+
   .header-content .main-nav-1 {
     position: relative;
     clear: both;
-    z-index: 48;
+    z-index: 54;
     width: 409px;
     margin-top: 34px;
     margin-right: 10.9556%;
@@ -962,7 +953,7 @@ body {
   }
 
   .about .about_title {
-    margin-left: 38.28272%;
+    margin-left: 38.27225%;
   }
 
   .contact_form .contact_title {
@@ -973,8 +964,9 @@ body {
     margin-left: 47.9726799999%;
   }
 
-  .disclaimer {
-    position: relative;
+  .disclaimer .disclaimer {
+    height: 101px;
+    margin-top: 185px;
   }
 
   .disclaimer .disclaimer_text {
@@ -985,12 +977,7 @@ body {
 
   .disclaimer .element {
     position: relative;
-    z-index: 53;
-  }
-
-  .footer {
-    position: relative;
-    z-index: 18;
+    z-index: 0;
   }
 
   .collaboration .logo,
@@ -1012,7 +999,7 @@ body {
 
   .footer_contents_contents .about {
     position: relative;
-    z-index: 3;
+    z-index: 9;
   }
 
   .footer_contents_contents .contact_form {
@@ -1021,7 +1008,7 @@ body {
 
   .footer_contents_contents .social {
     position: relative;
-    z-index: 16;
+    z-index: 22;
     margin-left: 8.97515%;
   }
 
@@ -1040,26 +1027,26 @@ body {
 
   .header-content .subtitle {
     position: relative;
-    z-index: 40;
+    z-index: 46;
     margin-left: 15.93387%;
   }
 
   .header-content .title {
     position: relative;
-    z-index: 39;
+    z-index: 45;
     margin-left: 15.22166%;
   }
 
   .header-content .warwick-logo {
     position: relative;
-    z-index: 49;
+    z-index: 55;
     height: auto;
     margin-right: 34.57849%;
   }
 
   .hero .featured-bg {
     position: relative;
-    z-index: 27;
+    z-index: 33;
   }
 
   .hero .hero-content {
@@ -1089,39 +1076,39 @@ body {
 
   .logo .ahrc {
     position: relative;
-    z-index: 22;
+    z-index: 28;
     height: auto;
   }
 
   .logo .collaboration {
     position: relative;
-    z-index: 20;
+    z-index: 26;
   }
 
   .logo .collaboration-bg {
     position: relative;
-    z-index: 19;
+    z-index: 25;
   }
 
   .logo .ehrc {
     position: relative;
-    z-index: 23;
+    z-index: 29;
   }
 
   .logo .hrf {
     position: relative;
-    z-index: 24;
+    z-index: 30;
   }
 
   .logo .warwick {
     position: relative;
-    z-index: 21;
+    z-index: 27;
     height: auto;
   }
 
   .social .social_links {
     position: relative;
-    z-index: 15;
+    z-index: 21;
     width: 47.1794871794%;
     margin-top: -5px;
     margin-left: 25.33993%;
@@ -1129,7 +1116,7 @@ body {
 
   .social .twitter_feed {
     position: relative;
-    z-index: 12;
+    z-index: 18;
   }
 
   .featured-object .image,
@@ -1140,7 +1127,7 @@ body {
   .social_links .twitter {
     clear: both;
     height: auto;
-    margin-left: 6.57933%;
+    margin-left: 6.55022%;
   }
 
   .twitter_feed .twitter_feed_placeholder {
@@ -1149,16 +1136,6 @@ body {
 
   .twitter_feed .twitter_title {
     margin-left: 20.76638%;
-  }
-
-  .disclaimer-1 {
-    z-index: 52;
-    margin-top: -185px;
-  }
-
-  .disclaimer-2 {
-    z-index: 57;
-    height: 101px;
   }
 
   .disclaimer_text .text-1 {
@@ -1170,15 +1147,21 @@ body {
     margin-top: 8px;
   }
 
+  .footer .disclaimer-1 {
+    position: relative;
+    z-index: 5;
+    margin-top: 138px;
+  }
+
   .header-content .main-nav-1 {
     position: relative;
-    z-index: 48;
+    z-index: 54;
     margin-right: 1.62064%;
   }
 
   .hero-content .introduction-1 {
     position: relative;
-    z-index: 34;
+    z-index: 40;
     height: 206px;
     margin-top: 318px;
     margin-left: -1.30606%;
@@ -1198,8 +1181,9 @@ body {
     margin-left: 47.98447%;
   }
 
-  .disclaimer {
-    position: relative;
+  .disclaimer .disclaimer {
+    height: 77px;
+    margin-top: 487px;
   }
 
   .disclaimer .disclaimer_text {
@@ -1208,12 +1192,10 @@ body {
 
   .disclaimer .element {
     position: relative;
-    z-index: 53;
+    z-index: 0;
   }
 
   .footer {
-    position: relative;
-    z-index: 18;
     width: 100.1302083333%;
     height: 588px;
     margin-left: -0.13021%;
@@ -1241,7 +1223,7 @@ body {
 
   .footer_contents_contents .about {
     position: relative;
-    z-index: 3;
+    z-index: 9;
     width: 46.0629921259%;
     margin-top: 36px;
     margin-left: 0;
@@ -1257,7 +1239,7 @@ body {
   .footer_contents_contents .social {
     position: relative;
     clear: both;
-    z-index: 16;
+    z-index: 22;
     width: 38.3858267716%;
     margin-top: -545px;
     margin-left: 61.48807%;
@@ -1270,20 +1252,20 @@ body {
 
   .header-content .subtitle {
     position: relative;
-    z-index: 40;
+    z-index: 46;
     margin-left: 15.94477%;
   }
 
   .header-content .title {
     position: relative;
-    z-index: 39;
+    z-index: 45;
     margin-top: 85px;
     margin-left: 14.9891%;
   }
 
   .header-content .warwick-logo {
     position: relative;
-    z-index: 49;
+    z-index: 55;
     height: auto;
     margin-top: -140px;
     margin-right: 34.14244%;
@@ -1291,7 +1273,7 @@ body {
 
   .hero .featured-bg {
     position: relative;
-    z-index: 27;
+    z-index: 33;
     width: 100%;
   }
 
@@ -1314,7 +1296,7 @@ body {
 
   .logo .ahrc {
     position: relative;
-    z-index: 22;
+    z-index: 28;
     height: auto;
     margin-top: -172px;
     margin-left: 86.53061%;
@@ -1322,46 +1304,46 @@ body {
 
   .logo .collaboration {
     position: relative;
-    z-index: 20;
+    z-index: 26;
     margin-left: 40.92156%;
   }
 
   .logo .collaboration-bg {
     position: relative;
-    z-index: 19;
+    z-index: 25;
     margin-left: -28.36735%;
   }
 
   .logo .ehrc {
     position: relative;
-    z-index: 23;
+    z-index: 29;
     margin-left: 29.59184%;
     font-size: 1.071em;
   }
 
   .logo .hrf {
     position: relative;
-    z-index: 24;
+    z-index: 30;
     margin-left: 57.96556%;
     font-size: 1.071em;
   }
 
   .logo .warwick {
     position: relative;
-    z-index: 21;
+    z-index: 27;
     height: auto;
   }
 
   .social .social_links {
     position: relative;
-    z-index: 15;
+    z-index: 21;
     margin-top: 5px;
     margin-left: 26.98718%;
   }
 
   .social .twitter_feed {
     position: relative;
-    z-index: 12;
+    z-index: 18;
   }
 
   .featured-object .image,
@@ -1383,16 +1365,6 @@ body {
     margin-left: 20.76122%;
   }
 
-  .disclaimer-1 {
-    z-index: 52;
-    margin-top: -487px;
-  }
-
-  .disclaimer-2 {
-    z-index: 57;
-    height: 77px;
-  }
-
   .disclaimer_text .text-1 {
     margin-left: 47.39194%;
   }
@@ -1403,16 +1375,24 @@ body {
     margin-left: 0.09054%;
   }
 
+  .footer .disclaimer-1 {
+    position: relative;
+    z-index: 5;
+    width: 99.8699609882%;
+    margin-top: 101px;
+    margin-left: 0.13004%;
+  }
+
   .header-content .main-nav-1 {
     position: relative;
-    z-index: 48;
+    z-index: 54;
     margin-top: 24px;
     margin-right: 1.39535%;
   }
 
   .hero-content .introduction-1 {
     position: relative;
-    z-index: 34;
+    z-index: 40;
     margin-top: 356px;
     margin-left: -1.29115%;
   }
@@ -1423,13 +1403,13 @@ body {
     font-size: 0.875em;
   }
 
-  .disclaimer {
-    position: relative;
+  .disclaimer .disclaimer {
+    height: 101px;
   }
 
   .disclaimer .element {
     position: relative;
-    z-index: 53;
+    z-index: 0;
   }
 
   .featured-object .image {
@@ -1446,8 +1426,6 @@ body {
   }
 
   .footer {
-    position: relative;
-    z-index: 18;
     margin-left: -0.12798%;
   }
 
@@ -1465,33 +1443,33 @@ body {
 
   .footer_contents_contents .about {
     position: relative;
-    z-index: 3;
+    z-index: 9;
   }
 
   .footer_contents_contents .social {
     position: relative;
-    z-index: 16;
+    z-index: 22;
   }
 
   .header-content .subtitle {
     position: relative;
-    z-index: 40;
+    z-index: 46;
   }
 
   .header-content .title {
     position: relative;
-    z-index: 39;
+    z-index: 45;
   }
 
   .header-content .warwick-logo {
     position: relative;
-    z-index: 49;
+    z-index: 55;
     height: auto;
   }
 
   .hero .featured-bg {
     position: relative;
-    z-index: 27;
+    z-index: 33;
   }
 
   .hero-content .featured-object {
@@ -1510,58 +1488,49 @@ body {
 
   .logo .ahrc {
     position: relative;
-    z-index: 22;
+    z-index: 28;
     height: auto;
   }
 
   .logo .collaboration {
     position: relative;
-    z-index: 20;
+    z-index: 26;
   }
 
   .logo .collaboration-bg {
     position: relative;
-    z-index: 19;
+    z-index: 25;
   }
 
   .logo .ehrc {
     position: relative;
-    z-index: 23;
+    z-index: 29;
   }
 
   .logo .hrf {
     position: relative;
-    z-index: 24;
+    z-index: 30;
   }
 
   .logo .warwick {
     position: relative;
-    z-index: 21;
+    z-index: 27;
     height: auto;
   }
 
   .social .social_links {
     position: relative;
-    z-index: 15;
+    z-index: 21;
   }
 
   .social .twitter_feed {
     position: relative;
-    z-index: 12;
+    z-index: 18;
   }
 
   .social_links .facebook,
   .social_links .twitter {
     height: auto;
-  }
-
-  .disclaimer-1 {
-    z-index: 52;
-  }
-
-  .disclaimer-2 {
-    z-index: 57;
-    height: 101px;
   }
 
   .disclaimer_text .text-1 {
@@ -1572,14 +1541,21 @@ body {
     margin-left: 0.08545%;
   }
 
+  .footer .disclaimer-1 {
+    position: relative;
+    z-index: 5;
+    width: 99.8721873792%;
+    margin-left: 0.12187%;
+  }
+
   .header-content .main-nav-1 {
     position: relative;
-    z-index: 48;
+    z-index: 54;
   }
 
   .hero-content .introduction-1 {
     position: relative;
-    z-index: 34;
+    z-index: 40;
   }
 }
 
@@ -1590,7 +1566,7 @@ body {
   }
 
   .about .about_title {
-    margin-left: 25.30403%;
+    margin-left: 25.2826999999%;
   }
 
   .collaboration .logo {
@@ -1610,9 +1586,9 @@ body {
     margin-left: 47.97893%;
   }
 
-  .disclaimer {
-    position: relative;
+  .disclaimer .disclaimer {
     height: 122px;
+    margin-top: 0;
   }
 
   .disclaimer .disclaimer_text {
@@ -1623,7 +1599,7 @@ body {
 
   .disclaimer .element {
     position: relative;
-    z-index: 53;
+    z-index: 0;
     height: 122px;
   }
 
@@ -1646,8 +1622,6 @@ body {
   }
 
   .footer {
-    position: relative;
-    z-index: 18;
     margin-left: -0.2050800001%;
   }
 
@@ -1668,7 +1642,7 @@ body {
 
   .footer_contents_contents .about {
     position: relative;
-    z-index: 3;
+    z-index: 9;
     margin-top: 43px;
     margin-left: 1.5625%;
   }
@@ -1683,7 +1657,7 @@ body {
 
   .footer_contents_contents .social {
     position: relative;
-    z-index: 16;
+    z-index: 22;
     margin-top: -534px;
     margin-left: 60.47072%;
   }
@@ -1719,7 +1693,7 @@ body {
 
   .header-content .subtitle {
     position: relative;
-    z-index: 40;
+    z-index: 46;
     margin-top: -21px;
     margin-left: 21.16101%;
     font-size: 0.714em;
@@ -1727,7 +1701,7 @@ body {
 
   .header-content .title {
     position: relative;
-    z-index: 39;
+    z-index: 45;
     margin-top: 62px;
     margin-left: -0.33113%;
     font-size: 2.143em;
@@ -1736,7 +1710,7 @@ body {
 
   .header-content .warwick-logo {
     position: relative;
-    z-index: 49;
+    z-index: 55;
     height: auto;
     margin-top: -117px;
     margin-right: 27.94909%;
@@ -1744,7 +1718,7 @@ body {
 
   .hero .featured-bg {
     position: relative;
-    z-index: 27;
+    z-index: 33;
     width: 139.0625%;
     margin-left: -13.90625%;
   }
@@ -1781,7 +1755,7 @@ body {
 
   .logo .ahrc {
     position: relative;
-    z-index: 22;
+    z-index: 28;
     width: 27.2058823529%;
     height: auto;
     margin-top: -177px;
@@ -1790,14 +1764,14 @@ body {
 
   .logo .collaboration {
     position: relative;
-    z-index: 20;
+    z-index: 26;
     margin-top: -207px;
     margin-left: 29.4807%;
   }
 
   .logo .collaboration-bg {
     position: relative;
-    z-index: 19;
+    z-index: 25;
     width: 176.8382352941%;
     height: 229px;
     margin-left: -38.60294%;
@@ -1805,7 +1779,7 @@ body {
 
   .logo .ehrc {
     position: relative;
-    z-index: 23;
+    z-index: 29;
     width: 44.8529411764%;
     margin-top: -67px;
     margin-left: 3.40648%;
@@ -1813,7 +1787,7 @@ body {
 
   .logo .hrf {
     position: relative;
-    z-index: 24;
+    z-index: 30;
     width: 37.5%;
     margin-top: -67px;
     margin-left: 61.99449%;
@@ -1822,7 +1796,7 @@ body {
   .logo .warwick {
     position: relative;
     clear: none;
-    z-index: 21;
+    z-index: 27;
     width: 41.1764705882%;
     height: auto;
     margin-top: -160px;
@@ -1872,7 +1846,7 @@ body {
   .main-nav .nav-objects {
     clear: both;
     margin-top: 11px;
-    margin-left: 10.4754%;
+    margin-left: 10.3372%;
     font-size: 0.857em;
     text-align: center;
   }
@@ -1887,16 +1861,16 @@ body {
 
   .social .social_links {
     position: relative;
-    z-index: 15;
+    z-index: 21;
     width: 54.8899129544%;
     height: 33px;
     margin-top: 0;
-    margin-left: 23.60676%;
+    margin-left: 23.59191%;
   }
 
   .social .twitter_feed {
     position: relative;
-    z-index: 12;
+    z-index: 18;
   }
 
   .social_links .facebook {
@@ -1907,12 +1881,12 @@ body {
   .social_links .twitter {
     width: 31px;
     height: auto;
-    margin-left: 4.16667%;
+    margin-left: 4.15112%;
   }
 
   .twitter_feed .twitter_feed_placeholder {
     margin-top: 0;
-    margin-left: -3.1336400001%;
+    margin-left: -3.1234%;
   }
 
   .twitter_feed .twitter_title {
@@ -1922,18 +1896,6 @@ body {
 
   .collaboration-1 {
     height: 228px;
-  }
-
-  .disclaimer-1 {
-    z-index: 52;
-    margin-top: 0;
-    margin-left: -0.2050800001%;
-  }
-
-  .disclaimer-2 {
-    clear: both;
-    z-index: 57;
-    margin-top: -122px;
   }
 
   .disclaimer_text .text-1 {
@@ -1946,10 +1908,19 @@ body {
     margin-left: 0;
   }
 
+  .footer .disclaimer-1 {
+    position: relative;
+    z-index: 5;
+    width: 99.8699609882%;
+    height: 122px;
+    margin-top: 588px;
+    margin-left: 0;
+  }
+
   .header-content .main-nav-1 {
     position: relative;
     clear: none;
-    z-index: 48;
+    z-index: 54;
     width: 95px;
     height: 152px;
     margin-top: 16px;
@@ -1958,7 +1929,7 @@ body {
 
   .hero-content .introduction-1 {
     position: relative;
-    z-index: 34;
+    z-index: 40;
     width: 100%;
     height: 294px;
     margin-top: 247px;
