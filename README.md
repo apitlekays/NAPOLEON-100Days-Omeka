@@ -14,7 +14,7 @@ The Project
 ------
 The project is using [Omeka](http://www.omeka.org) framework, a digital repository for historical objects, built by [Center for History and New Media](http://chnm.gmu.edu/). The idea is to display over 100 objects in a way that each day display one item from the database. Each item has its own historical significance and dated according to Napoleon's 100 days journey.
 
-*This folder does not contains actual objects used in the final production. Generic assets will replace the images and descriptions, can when the whole project is ported to the actual site, the editorial team will populate the site with appropriate contents*
+*This folder does not contains actual objects used in the final production. Generic assets will be used to replace the actual images and descriptions, and when the whole project is ported to the actual site, the editorial team will populate the site with appropriate contents*
 
 Resources
 -------
