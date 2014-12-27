@@ -9,12 +9,26 @@
 
 body {
   background-color: rgb(255, 255, 255);
-  font: normal 0.875em/1.38 Aller;
+  font: normal 0.875em/1.38 'Aller Light';
   color: rgb(0, 0, 0);
 }
 
+.page-about {
+  font-weight: Regular;
+  color: rgb(255, 255, 255);
+}
+
 .page-index {
-  font-family: 'Aller Light';
+  color: rgb(0, 0, 0);
+}
+
+.page-events,
+.page-links,
+.page-objects,
+.page-search,
+.page-timeline {
+  font-family: Aller;
+  color: rgb(0, 0, 0);
 }
 
 .collaboration section {
@@ -28,11 +42,58 @@ body {
   margin: 0 auto;
 }
 
-.editors h2 {
-  margin: -2.833em 0 0 39.83301%;
+.contact_form-6 button,
+.contact_form-7 button {
+  font-family: Aller;
+}
+
+.contact_form-6 input,
+.contact_form-7 input {
+  font-family: Aller;
+}
+
+.contact_form-6 textarea,
+.contact_form-7 textarea {
+  font-family: Aller;
+}
+
+.contribution section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.contribution-contents article {
+  width: 99.8958333333%;
+  height: 15.643em;
+  min-height: 10.714em;
+  margin-top: 1.786em;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.contribution-contents h2 {
+  margin: 1.5em auto 0;
   font-family: 'Dustismo Roman';
   font-size: 2.143em;
-  font-weight: Regular;
+  text-align: center;
+  color: #fb9902;
+}
+
+.contribution-contents ul {
+  width: 22.5378787878%;
+  height: 11.143em;
+  margin: 1.571em auto 0;
+}
+
+.editors h2 {
+  position: absolute;
+  top: -2.833em;
+  left: 39.8330050944%;
+  z-index: 42;
+  font-family: 'Dustismo Roman';
+  font-size: 2.143em;
   text-align: center;
   color: #fb9902;
 }
@@ -79,6 +140,7 @@ body {
 
 .header-content h2 {
   position: relative;
+  float: left;
   clear: both;
   margin-top: -0.625em;
   font-size: 1.143em;
@@ -114,6 +176,7 @@ body {
 
 .header-content-1 h2 {
   z-index: 53;
+  font-family: Aller;
 }
 
 .header-content-1 img {
@@ -130,10 +193,16 @@ body {
 
 .header-content-2 h2 {
   z-index: 46;
+  font-family: Aller;
 }
 
 .header-content-2 img {
   z-index: 55;
+}
+
+.header-content-1 input,
+.header-content-2 input {
+  font-family: Aller;
 }
 
 .header-content-2 nav {
@@ -172,23 +241,36 @@ body {
   z-index: 11;
 }
 
+.introduction article {
+  width: 960px;
+  height: 22.429em;
+  margin-top: 2.786em;
+}
+
+.list-name li {
+  margin: 0 auto;
+  font-family: Aller;
+  font-size: 0.714em;
+  text-align: center;
+  color: rgb(225, 127, 0);
+}
+
 .logo img {
   position: relative;
   float: left;
 }
 
-.member-2 h3 {
-  font-weight: Regular;
+.main-nav-2 li,
+.main-nav-4 li {
+  font-family: Aller;
 }
 
 .member-3 h3 {
   width: 68.5919986909%;
-  font-weight: Regular;
 }
 
 .member-4 h3 {
   width: 62.8323652131%;
-  font-weight: Regular;
 }
 
 .social section {
@@ -197,13 +279,13 @@ body {
 }
 
 article {
-  width: 960px;
-  height: 22.429em;
-  margin: 2.786em auto 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 article h2 {
   position: relative;
+  float: left;
   z-index: 46;
   margin-top: 1.133em;
   font-family: DustismoRoman;
@@ -270,14 +352,12 @@ h1 {
 }
 
 h2 {
-  float: left;
   line-height: 1.38;
 }
 
 h3 {
   margin: 0.688em auto 0;
-  font-size: 1.143em;
-  line-height: 1.38;
+  font: 1.143em/1.38 Aller;
   text-align: center;
   color: rgb(255, 181, 86);
 }
@@ -285,8 +365,7 @@ h3 {
 h4 {
   width: 62.8272251308%;
   margin: 0.5em auto 0;
-  font-size: 0.714em;
-  line-height: 1.38;
+  font: 0.714em/1.38 Aller;
   text-align: center;
   color: rgb(225, 127, 0);
 }
@@ -307,19 +386,7 @@ input {
 }
 
 li {
-  float: left;
-  margin-top: -0.154em;
-  font-size: 0.929em;
   line-height: 1.38;
-  color: rgb(92, 150, 210);
-}
-
-li:hover {
-  border-bottom: 0.154em solid rgb(225, 127, 0);
-}
-
-li:active {
-  color: rgb(225, 127, 0);
 }
 
 nav {
@@ -336,6 +403,27 @@ nav:hover {
   border-bottom-width: 0;
   border-left-width: 0;
   border-style: none;
+}
+
+nav li {
+  float: left;
+  margin-top: -0.154em;
+  font-size: 0.929em;
+  color: rgb(92, 150, 210);
+}
+
+nav li:hover {
+  border-bottom: 0.154em solid rgb(225, 127, 0);
+}
+
+nav li:active {
+  color: rgb(225, 127, 0);
+}
+
+nav ul {
+  float: left;
+  width: 99.9097083186%;
+  height: 1.214em;
 }
 
 textarea {
@@ -359,10 +447,10 @@ textarea:focus {
   background-color: rgb(254, 233, 185);
 }
 
-ul {
-  float: left;
-  width: 99.9097083186%;
-  height: 1.214em;
+.about_text p,
+.intro-body p,
+section article p {
+  margin-bottom: 1em;
 }
 
 .about {
@@ -382,11 +470,6 @@ ul {
   line-height: 1.38;
   text-align: center;
   color: rgb(0, 0, 0);
-}
-
-.about_text p,
-.intro-body p {
-  margin-bottom: 1em;
 }
 
 .about_title {
@@ -445,6 +528,14 @@ ul {
   background-color: rgb(50, 78, 107);
 }
 
+.contribution {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 37.286em;
+  background-color: #835000;
+}
+
 .disclaimer {
   float: left;
   width: 100%;
@@ -469,20 +560,19 @@ ul {
   position: relative;
   float: left;
   clear: both;
-  z-index: 44;
   width: 100%;
-  height: 51.286em;
-  margin-top: -59.429em;
+  height: 33.357em;
 }
 
 .editors {
-  position: relative;
-  float: left;
-  clear: both;
+  position: absolute;
+  top: 7.857em;
+  left: 0;
+  right: 0;
   z-index: 43;
-  width: 79.9986979166%;
+  width: 960px;
   height: 17.286em;
-  margin: -25.5em 0 0 10%;
+  margin: 0 auto;
 }
 
 .ehrc {
@@ -703,8 +793,7 @@ ul {
   top: 3.154em;
   left: 33.3218443627%;
   z-index: 35;
-  font-size: 0.929em;
-  line-height: 1.38;
+  font: 0.929em/1.38 Aller;
   color: rgb(253, 218, 135);
 }
 
@@ -767,15 +856,6 @@ ul {
   margin: -10.786em 0 0 -0.04515%;
 }
 
-.about_text-1,
-.about_text-2,
-.about_text-3,
-.about_text-4,
-.about_text-5,
-.about_text-6 {
-  font-family: 'Aller Light';
-}
-
 .collaboration-1 {
   width: 100%;
   height: 20.071em;
@@ -783,78 +863,73 @@ ul {
 }
 
 .disclaimer-1,
+.disclaimer-2,
 .disclaimer-3,
 .disclaimer-4,
 .disclaimer-5,
 .disclaimer-6,
-.disclaimer-7,
-.disclaimer-8 {
+.disclaimer-7 {
   margin-top: 26.071em;
 }
 
+.disclaimer_text-1,
 .disclaimer_text-2,
 .disclaimer_text-3,
 .disclaimer_text-4,
-.disclaimer_text-5,
-.disclaimer_text-6 {
+.disclaimer_text-5 {
   z-index: 18;
 }
 
-.disclaimer_text-1,
+.disclaimer_text-6,
 .disclaimer_text-7 {
   z-index: 3;
 }
 
+.element-1,
 .element-2,
 .element-3,
 .element-4,
-.element-5,
-.element-6 {
+.element-5 {
   z-index: 15;
 }
 
-.element-1,
+.element-6,
 .element-7 {
   z-index: 0;
 }
 
 .footer-1 {
-  z-index: 24;
-  margin-top: 33.357em;
-}
-
-.footer-2 {
   margin-top: 52.929em;
 }
 
-.footer-3 {
+.footer-2 {
   margin-top: 52.143em;
 }
 
-.footer-4 {
+.footer-3 {
   margin-top: 50.786em;
 }
 
-.footer-5 {
+.footer-4 {
   margin-top: 48.714em;
 }
 
-.footer-6 {
+.footer-5 {
   margin-top: 46.786em;
 }
 
-.footer_contents-1 {
-  z-index: 6;
-  width: 1217px;
-}
-
+.footer_contents-1,
 .footer_contents-2,
 .footer_contents-3,
 .footer_contents-4,
-.footer_contents-5,
-.footer_contents-6 {
+.footer_contents-5 {
   z-index: 21;
   width: 1199px;
+}
+
+.footer_contents-6 {
+  z-index: 6;
+  width: 1217px;
 }
 
 .footer_contents-7 {
@@ -862,15 +937,15 @@ ul {
   width: 1199px;
 }
 
+.footer_contents_contents-1,
 .footer_contents_contents-2,
 .footer_contents_contents-3,
 .footer_contents_contents-4,
-.footer_contents_contents-5,
-.footer_contents_contents-6 {
+.footer_contents_contents-5 {
   z-index: 38;
 }
 
-.footer_contents_contents-1,
+.footer_contents_contents-6,
 .footer_contents_contents-7 {
   z-index: 23;
 }
@@ -915,9 +990,7 @@ ul {
 .text-10,
 .text-11,
 .text-12,
-.text-13,
-.text-14,
-.text-2,
+.text-8,
 .text-9 {
   clear: both;
   width: 99.9028110047%;
@@ -928,25 +1001,34 @@ ul {
   color: #416993;
 }
 
+.text-13,
+.text-14 {
+  clear: both;
+  width: 99.9028110047%;
+  min-height: 2.556em;
+  margin-top: 0.889em;
+  font-family: Aller;
+  font-size: 0.643em;
+  text-align: center;
+  color: #416993;
+}
+
 .text-1,
+.text-2,
 .text-3,
 .text-4,
-.text-5,
-.text-6,
-.text-7,
-.text-8 {
+.text-5 {
   margin-left: 47.0077%;
   font-size: 0.714em;
   color: rgb(65, 105, 147);
 }
 
-.twitter_feed_placeholder-1,
-.twitter_feed_placeholder-2,
-.twitter_feed_placeholder-3,
-.twitter_feed_placeholder-4,
-.twitter_feed_placeholder-5,
-.twitter_feed_placeholder-6 {
-  font-family: 'Aller Light';
+.text-6,
+.text-7 {
+  margin-left: 47.0077%;
+  font-family: Aller;
+  font-size: 0.714em;
+  color: rgb(65, 105, 147);
 }
 
 @media(max-width: 980px) {
@@ -1150,11 +1232,11 @@ ul {
     margin-top: 0.556em;
   }
 
-  .disclaimer_text .text-8 {
+  .disclaimer_text .text-7 {
     margin-left: 47.41261%;
   }
 
-  .footer .disclaimer-8 {
+  .footer .disclaimer-7 {
     position: relative;
     z-index: 5;
     margin-top: 6.857em;
@@ -1417,11 +1499,11 @@ ul {
     margin-top: 0.889em;
   }
 
-  .disclaimer_text .text-8 {
+  .disclaimer_text .text-7 {
     margin-left: 47.40449%;
   }
 
-  .footer .disclaimer-8 {
+  .footer .disclaimer-7 {
     position: relative;
     z-index: 5;
     margin-top: 9.857em;
@@ -1642,11 +1724,11 @@ ul {
     margin-left: 0.09054%;
   }
 
-  .disclaimer_text .text-8 {
+  .disclaimer_text .text-7 {
     margin-left: 47.39194%;
   }
 
-  .footer .disclaimer-8 {
+  .footer .disclaimer-7 {
     position: relative;
     z-index: 5;
     width: 99.8699609882%;
@@ -1845,11 +1927,11 @@ ul {
     margin-left: 0.08545%;
   }
 
-  .disclaimer_text .text-8 {
+  .disclaimer_text .text-7 {
     margin-left: 47.38956%;
   }
 
-  .footer .disclaimer-8 {
+  .footer .disclaimer-7 {
     position: relative;
     z-index: 5;
     width: 99.8721873792%;
@@ -1965,17 +2047,12 @@ ul {
   }
 
   .main-nav-3 ul {
-    float: none;
-    width: 59.5092024539%;
-    height: 10.643em;
     margin-top: 0.214em;
     margin-right: auto;
     margin-left: auto;
   }
 
   .main-nav-4 li {
-    border-bottom-width: 0.167em;
-    font-size: 0.857em;
     text-align: center;
   }
 
@@ -2117,11 +2194,11 @@ ul {
     margin-left: 0;
   }
 
-  .disclaimer_text .text-8 {
+  .disclaimer_text .text-7 {
     margin-left: 42.38806%;
   }
 
-  .footer .disclaimer-8 {
+  .footer .disclaimer-7 {
     position: relative;
     z-index: 5;
     width: 99.8699609882%;
@@ -2200,36 +2277,30 @@ ul {
 
   .main-nav .nav-about-2 {
     clear: both;
-    margin-top: 0.917em;
     margin-left: 19.1542299999%;
   }
 
   .main-nav .nav-events-2 {
     clear: both;
-    margin-top: 0.833em;
     margin-left: 13.3499199999%;
   }
 
   .main-nav .nav-home-2 {
-    margin-top: 0;
     margin-left: 22.6644599999%;
   }
 
   .main-nav .nav-links-2 {
     clear: both;
-    margin-top: 0.917em;
     margin-left: 24.43339%;
   }
 
   .main-nav .nav-objects-2 {
     clear: both;
-    margin-top: 0.917em;
     margin-left: 10.30956%;
   }
 
   .main-nav .nav-timeline-2 {
     clear: both;
-    margin-top: 0.833em;
     margin-left: 8.73411%;
   }
 
