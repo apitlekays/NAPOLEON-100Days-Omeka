@@ -18,17 +18,17 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.page-events,
+.page-index {
+  color: rgb(0, 0, 0);
+}
+
 .page-links,
 .page-search {
   font-family: Aller;
   color: rgb(0, 0, 0);
 }
 
-.page-index {
-  color: rgb(0, 0, 0);
-}
-
+.page-events,
 .page-objects,
 .page-timeline {
   font-weight: Regular;
@@ -46,6 +46,7 @@ body {
   margin: 0 auto;
 }
 
+.contact_form-3 button,
 .contact_form-4 button,
 .contact_form-5 button,
 .contact_form-6 button,
@@ -53,6 +54,7 @@ body {
   font-family: Aller;
 }
 
+.contact_form-3 input,
 .contact_form-4 input,
 .contact_form-5 input,
 .contact_form-6 input,
@@ -60,6 +62,7 @@ body {
   font-family: Aller;
 }
 
+.contact_form-3 textarea,
 .contact_form-4 textarea,
 .contact_form-5 textarea,
 .contact_form-6 textarea,
@@ -114,6 +117,31 @@ body {
   height: 17.286em;
 }
 
+.event-content button {
+  width: 16.9791666666%;
+  height: 2.125em;
+  margin: 0.438em 0 0 7.47559%;
+  border-bottom-width: 0.125em;
+  border-radius: 0.313em;
+  background-color: rgb(255, 181, 86);
+  font-family: Aller;
+  font-size: 1.143em;
+  font-weight: 400;
+}
+
+.event-content section {
+  float: left;
+}
+
+.event-details article {
+  float: left;
+  clear: both;
+  width: 100%;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
 .featured-object img {
   position: absolute;
   top: 7.071em;
@@ -141,14 +169,17 @@ body {
 }
 
 .header-3 section {
-  z-index: 58;
+  z-index: 61;
 }
 
 .header-4 section {
+  z-index: 58;
+}
+
+.header-5 section {
   z-index: 56;
 }
 
-.header-5 section,
 .header-6 section,
 .header-7 section {
   z-index: 13;
@@ -221,65 +252,79 @@ body {
 }
 
 .header-content-3 h1 {
-  z-index: 47;
+  z-index: 50;
 }
 
 .header-content-3 h2 {
-  z-index: 48;
+  z-index: 51;
   font-family: Aller;
 }
 
 .header-content-3 img {
-  z-index: 57;
+  z-index: 60;
 }
 
 .header-content-3 nav {
-  z-index: 56;
+  z-index: 59;
 }
 
 .header-content-4 h1 {
-  z-index: 45;
+  z-index: 47;
 }
 
 .header-content-4 h2 {
-  z-index: 46;
+  z-index: 48;
   font-family: Aller;
 }
 
 .header-content-4 img {
+  z-index: 57;
+}
+
+.header-content-4 nav {
+  z-index: 56;
+}
+
+.header-content-5 h1 {
+  z-index: 45;
+}
+
+.header-content-5 h2 {
+  z-index: 46;
+  font-family: Aller;
+}
+
+.header-content-5 img {
   z-index: 55;
 }
 
 .header-content-1 input,
 .header-content-2 input,
 .header-content-3 input,
-.header-content-4 input {
+.header-content-4 input,
+.header-content-5 input {
   font-family: Aller;
 }
 
-.header-content-4 nav {
+.header-content-5 nav {
   z-index: 54;
 }
 
-.header-content-5 h1,
 .header-content-6 h1,
 .header-content-7 h1 {
   z-index: 2;
 }
 
-.header-content-5 h2,
 .header-content-6 h2,
 .header-content-7 h2 {
   z-index: 3;
 }
 
-.header-content-5 img,
 .header-content-6 img,
 .header-content-7 img {
   z-index: 12;
 }
 
-.header-content-5 nav,
 .header-content-6 nav,
 .header-content-7 nav {
   z-index: 11;
@@ -325,6 +370,7 @@ body {
   float: left;
 }
 
+.main-nav-10 li,
 .main-nav-2 li,
 .main-nav-4 li,
 .main-nav-6 li,
@@ -348,6 +394,10 @@ body {
 }
 
 .masthead-2 section {
+  z-index: 46;
+}
+
+.masthead-3 section {
   z-index: 43;
 }
 
@@ -381,6 +431,7 @@ body {
 }
 
 .object button {
+  clear: both;
   width: 62.9820051413%;
   height: 2.154em;
   margin: 0.846em 0 0 0.16833%;
@@ -524,21 +575,13 @@ article img {
 button {
   display: block;
   float: left;
-  clear: both;
   line-height: 1.38;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
-button:active {
-  border-top-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-style: none;
-}
-
 div button {
+  clear: both;
   width: 51.798561151%;
   height: 1.813em;
   margin: 0.375em 0 0 47.98857%;
@@ -546,6 +589,15 @@ div button {
   border-radius: 0.188em;
   background-color: rgb(253, 218, 135);
   font-size: 1.143em;
+}
+
+.object button:active,
+div button:active {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-style: none;
 }
 
 div img {
@@ -668,6 +720,7 @@ textarea:focus {
 
 .about_text p,
 .contribution-contents article p,
+.event-details article p,
 .intro-body p,
 .object article p,
 .related-links-content article p,
@@ -767,6 +820,13 @@ textarea:focus {
   background-color: #835000;
 }
 
+.day {
+  float: left;
+  margin: 0.15em 0 0 20.8197699999%;
+  font: 400 2.857em/1.38 Aller;
+  color: rgb(255, 255, 255);
+}
+
 .disclaimer {
   float: left;
   width: 100%;
@@ -829,6 +889,37 @@ textarea:focus {
 
 .email {
   margin-top: 0.615em;
+}
+
+.event {
+  width: 100%;
+  height: 22.286em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.event-content {
+  width: 960px;
+  height: 16.143em;
+  margin: 4.071em auto 0;
+}
+
+.event-date {
+  width: 8.4993489583%;
+  height: 7.643em;
+  background-color: #5c96d2;
+}
+
+.event-details {
+  width: 60.5208333333%;
+  height: 16.143em;
+  margin-left: 6.4974%;
+}
+
+.event-title {
+  float: left;
+  font: 2.143em/1.38 'Dustismo Roman';
+  color: #fb9902;
 }
 
 .featured-bg {
@@ -1034,6 +1125,24 @@ textarea:focus {
   margin-left: 6.76758%;
 }
 
+.month {
+  position: relative;
+  float: left;
+  clear: both;
+  margin: -1.65em 0 0 30.58801%;
+  font: 1.429em/1.38 Aller;
+  color: rgb(92, 150, 210);
+}
+
+.month-bg {
+  position: relative;
+  float: left;
+  width: 100.4978935273%;
+  height: 2.786em;
+  margin-left: -0.47884%;
+  background-color: rgb(50, 78, 107);
+}
+
 .nav-about {
   margin-left: 8.50626%;
 }
@@ -1229,6 +1338,10 @@ textarea:focus {
 }
 
 .background-masthead-2 {
+  z-index: 45;
+}
+
+.background-masthead-3 {
   z-index: 42;
 }
 
@@ -1249,11 +1362,11 @@ textarea:focus {
 }
 
 .disclaimer_text-1,
-.disclaimer_text-2,
-.disclaimer_text-3 {
+.disclaimer_text-2 {
   z-index: 18;
 }
 
+.disclaimer_text-3,
 .disclaimer_text-4,
 .disclaimer_text-5,
 .disclaimer_text-6,
@@ -1262,16 +1375,25 @@ textarea:focus {
 }
 
 .element-1,
-.element-2,
-.element-3 {
+.element-2 {
   z-index: 15;
 }
 
+.element-3,
 .element-4,
 .element-5,
 .element-6,
 .element-7 {
   z-index: 0;
+}
+
+.event-1 {
+  margin-top: 17em;
+  background-color: rgba(92, 150, 210, 0.33);
+}
+
+.event-2 {
+  background-color: rgba(159, 197, 235, 0.33);
 }
 
 .footer-1 {
@@ -1282,13 +1404,8 @@ textarea:focus {
   margin-top: 52.143em;
 }
 
-.footer-3 {
-  margin-top: 50.786em;
-}
-
 .footer_contents-1,
-.footer_contents-2,
-.footer_contents-3 {
+.footer_contents-2 {
   z-index: 21;
   width: 1199px;
 }
@@ -1298,6 +1415,7 @@ textarea:focus {
   width: 1217px;
 }
 
+.footer_contents-3,
 .footer_contents-4,
 .footer_contents-5,
 .footer_contents-7 {
@@ -1306,11 +1424,11 @@ textarea:focus {
 }
 
 .footer_contents_contents-1,
-.footer_contents_contents-2,
-.footer_contents_contents-3 {
+.footer_contents_contents-2 {
   z-index: 38;
 }
 
+.footer_contents_contents-3,
 .footer_contents_contents-4,
 .footer_contents_contents-5,
 .footer_contents_contents-6,
@@ -1331,10 +1449,14 @@ textarea:focus {
 }
 
 .header-bg-3 {
-  z-index: 45;
+  z-index: 48;
 }
 
 .header-bg-4 {
+  z-index: 45;
+}
+
+.header-bg-5 {
   z-index: 43;
 }
 
@@ -1375,18 +1497,23 @@ textarea:focus {
   margin-left: 0.01276%;
 }
 
-.text-10,
-.text-8,
-.text-9 {
-  clear: both;
-  width: 99.9028110047%;
-  min-height: 2.556em;
-  margin-top: 0.889em;
-  font-size: 0.643em;
-  text-align: center;
-  color: #416993;
+.month-1 {
+  z-index: 26;
 }
 
+.month-2 {
+  z-index: 36;
+}
+
+.month-bg-1 {
+  z-index: 25;
+}
+
+.month-bg-2 {
+  z-index: 35;
+}
+
+.text-10,
 .text-11,
 .text-12,
 .text-13,
@@ -1402,13 +1529,13 @@ textarea:focus {
 }
 
 .text-1,
-.text-2,
-.text-3 {
+.text-2 {
   margin-left: 47.0077%;
   font-size: 0.714em;
   color: rgb(65, 105, 147);
 }
 
+.text-3,
 .text-4,
 .text-5,
 .text-6,
@@ -1417,6 +1544,17 @@ textarea:focus {
   font-family: Aller;
   font-size: 0.714em;
   color: rgb(65, 105, 147);
+}
+
+.text-8,
+.text-9 {
+  clear: both;
+  width: 99.9028110047%;
+  min-height: 2.556em;
+  margin-top: 0.889em;
+  font-size: 0.643em;
+  text-align: center;
+  color: #416993;
 }
 
 .weekly-summary-1 {
@@ -1441,7 +1579,7 @@ textarea:focus {
     height: auto;
   }
 
-  .header-4 section {
+  .header-5 section {
     left: 0;
     right: 0;
     width: 518px;
@@ -1450,7 +1588,7 @@ textarea:focus {
     margin-left: auto;
   }
 
-  .header-content-4 h1 {
+  .header-content-5 h1 {
     position: relative;
     z-index: 45;
     width: 303px;
@@ -1458,13 +1596,13 @@ textarea:focus {
     margin-left: 21.04247%;
   }
 
-  .header-content-4 h2 {
+  .header-content-5 h2 {
     position: relative;
     z-index: 46;
     margin-left: 21.75133%;
   }
 
-  .header-content-4 img {
+  .header-content-5 img {
     position: relative;
     clear: both;
     z-index: 55;
@@ -1474,12 +1612,12 @@ textarea:focus {
     margin-right: 37.18328%;
   }
 
-  .header-content-4 input {
+  .header-content-5 input {
     margin-top: 1.154em;
     margin-right: 145px;
   }
 
-  .header-content-4 nav {
+  .header-content-5 nav {
     position: relative;
     clear: both;
     z-index: 54;
@@ -1670,7 +1808,7 @@ textarea:focus {
     margin-left: 11.43687%;
   }
 
-  .header .header-bg-4 {
+  .header .header-bg-5 {
     left: 0;
     right: 0;
     height: 17.714em;
@@ -1678,7 +1816,7 @@ textarea:focus {
     margin-left: auto;
   }
 
-  .header-4 {
+  .header-5 {
     height: 17.714em;
   }
 
@@ -1696,20 +1834,20 @@ textarea:focus {
     text-align: center;
   }
 
-  .main-nav .nav-about-4 {
+  .main-nav .nav-about-5 {
     margin-left: 8.50413%;
   }
 
-  .main-nav .nav-events-4,
-  .main-nav .nav-timeline-4 {
+  .main-nav .nav-events-5,
+  .main-nav .nav-timeline-5 {
     margin-left: 6.22515%;
   }
 
-  .main-nav .nav-links-4 {
+  .main-nav .nav-links-5 {
     margin-left: 8.23264%;
   }
 
-  .main-nav .nav-objects-4 {
+  .main-nav .nav-objects-5 {
     margin-left: 4.7070999999%;
   }
 
@@ -1738,7 +1876,7 @@ textarea:focus {
 
   .collaboration section,
   .footer .footer_contents-7,
-  .header .header-bg-4 {
+  .header .header-bg-5 {
     left: 0;
     right: 0;
     margin-right: auto;
@@ -1749,7 +1887,7 @@ textarea:focus {
     height: auto;
   }
 
-  .header-4 section {
+  .header-5 section {
     left: 0;
     right: 0;
     width: 430px;
@@ -1757,31 +1895,31 @@ textarea:focus {
     margin-left: auto;
   }
 
-  .header-content-4 h1 {
+  .header-content-5 h1 {
     position: relative;
     z-index: 45;
     margin-left: 15.22166%;
   }
 
-  .header-content-4 h2 {
+  .header-content-5 h2 {
     position: relative;
     z-index: 46;
     margin-left: 15.93387%;
   }
 
-  .header-content-4 img {
+  .header-content-5 img {
     position: relative;
     z-index: 55;
     height: auto;
     margin-right: 34.57849%;
   }
 
-  .header-content-4 input {
+  .header-content-5 input {
     margin-top: 1.077em;
     margin-right: 102px;
   }
 
-  .header-content-4 nav {
+  .header-content-5 nav {
     position: relative;
     z-index: 54;
     margin-right: 1.62064%;
@@ -1954,8 +2092,8 @@ textarea:focus {
 @media(max-width: 768px) {
   .collaboration section,
   .footer .footer_contents_contents-7,
-  .header .header-bg-4,
-  .header-4 section,
+  .header .header-bg-5,
+  .header-5 section,
   .hero .hero-content {
     left: 0;
     right: 0;
@@ -1967,20 +2105,20 @@ textarea:focus {
     height: auto;
   }
 
-  .header-content-4 h1 {
+  .header-content-5 h1 {
     position: relative;
     z-index: 45;
     margin-top: 2.125em;
     margin-left: 14.9891%;
   }
 
-  .header-content-4 h2 {
+  .header-content-5 h2 {
     position: relative;
     z-index: 46;
     margin-left: 15.94477%;
   }
 
-  .header-content-4 img {
+  .header-content-5 img {
     position: relative;
     z-index: 55;
     height: auto;
@@ -1988,12 +2126,12 @@ textarea:focus {
     margin-right: 34.14244%;
   }
 
-  .header-content-4 input {
+  .header-content-5 input {
     margin-top: 1.308em;
     margin-right: 101px;
   }
 
-  .header-content-4 nav {
+  .header-content-5 nav {
     position: relative;
     z-index: 54;
     margin-top: 1.714em;
@@ -2192,8 +2330,8 @@ textarea:focus {
   .collaboration section,
   .footer .footer_contents-7,
   .footer .footer_contents_contents-7,
-  .header .header-bg-4,
-  .header-4 section,
+  .header .header-bg-5,
+  .header-5 section,
   .hero .hero-content {
     left: 0;
     right: 0;
@@ -2206,23 +2344,23 @@ textarea:focus {
     height: auto;
   }
 
-  .header-content-4 h1 {
+  .header-content-5 h1 {
     position: relative;
     z-index: 45;
   }
 
-  .header-content-4 h2 {
+  .header-content-5 h2 {
     position: relative;
     z-index: 46;
   }
 
-  .header-content-4 img {
+  .header-content-5 img {
     position: relative;
     z-index: 55;
     height: auto;
   }
 
-  .header-content-4 nav {
+  .header-content-5 nav {
     position: relative;
     z-index: 54;
   }
@@ -2365,7 +2503,7 @@ textarea:focus {
     height: auto;
   }
 
-  .header-4 section {
+  .header-5 section {
     left: 0;
     right: 0;
     width: 302px;
@@ -2374,7 +2512,7 @@ textarea:focus {
     margin-left: auto;
   }
 
-  .header-content-4 h1 {
+  .header-content-5 h1 {
     position: relative;
     z-index: 45;
     height: 1.833em;
@@ -2384,7 +2522,7 @@ textarea:focus {
     text-align: center;
   }
 
-  .header-content-4 h2 {
+  .header-content-5 h2 {
     position: relative;
     z-index: 46;
     margin-top: -2.1em;
@@ -2392,7 +2530,7 @@ textarea:focus {
     font-size: 0.714em;
   }
 
-  .header-content-4 img {
+  .header-content-5 img {
     position: relative;
     z-index: 55;
     height: auto;
@@ -2400,7 +2538,7 @@ textarea:focus {
     margin-right: 27.94909%;
   }
 
-  .header-content-4 input {
+  .header-content-5 input {
     float: none;
     clear: none;
     margin-top: 24em;
@@ -2408,7 +2546,7 @@ textarea:focus {
     margin-left: auto;
   }
 
-  .header-content-4 nav {
+  .header-content-5 nav {
     position: relative;
     clear: none;
     z-index: 54;
@@ -2423,14 +2561,14 @@ textarea:focus {
     height: auto;
   }
 
-  .main-nav-7 ul {
+  .main-nav-10 li {
+    text-align: center;
+  }
+
+  .main-nav-9 ul {
     margin-top: 0.214em;
     margin-right: auto;
     margin-left: auto;
-  }
-
-  .main-nav-8 li {
-    text-align: center;
   }
 
   .social-7 section {
@@ -2625,7 +2763,7 @@ textarea:focus {
     margin-left: 60.47072%;
   }
 
-  .header .header-bg-4 {
+  .header .header-bg-5 {
     left: 0;
     right: 0;
     height: 25.286em;
@@ -2633,7 +2771,7 @@ textarea:focus {
     margin-left: auto;
   }
 
-  .header-4 {
+  .header-5 {
     height: 25.286em;
   }
 
@@ -2652,31 +2790,31 @@ textarea:focus {
     font-size: 1.071em;
   }
 
-  .main-nav .nav-about-4 {
+  .main-nav .nav-about-5 {
     clear: both;
     margin-left: 19.1542299999%;
   }
 
-  .main-nav .nav-events-4 {
+  .main-nav .nav-events-5 {
     clear: both;
     margin-left: 13.3499199999%;
   }
 
-  .main-nav .nav-home-4 {
+  .main-nav .nav-home-5 {
     margin-left: 22.6644599999%;
   }
 
-  .main-nav .nav-links-4 {
+  .main-nav .nav-links-5 {
     clear: both;
     margin-left: 24.43339%;
   }
 
-  .main-nav .nav-objects-4 {
+  .main-nav .nav-objects-5 {
     clear: both;
     margin-left: 10.30956%;
   }
 
-  .main-nav .nav-timeline-4 {
+  .main-nav .nav-timeline-5 {
     clear: both;
     margin-left: 8.73411%;
   }
