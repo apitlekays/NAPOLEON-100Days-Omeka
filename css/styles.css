@@ -1,11 +1,64 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: normal 1em/1.38 Aller;
-  color: rgb(92, 150, 210);
+  font: normal 0.875em/1.38 Aller-Light;
+  color: rgb(200, 200, 200);
 }
 
 .page-garage {
-  color: rgb(92, 150, 210);
+  color: rgb(200, 200, 200);
+}
+
+.about-contents article {
+  width: 57.4999999999%;
+  height: 25.5em;
+}
+
+.editorial-contents h2 {
+  margin: 0 auto;
+  font-family: 'Dustismo Roman';
+  font-weight: Regular;
+  text-align: center;
+}
+
+.hero-contents article {
+  width: 36.9791666666%;
+  height: 24.5em;
+  margin: 1.929em 0 0 5.51921%;
+}
+
+.object-display h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 21;
+  width: 99.8188405797%;
+  margin: 0 auto;
+  font-family: DustismoRoman;
+  text-align: center;
+}
+
+.object-display h3 {
+  position: absolute;
+  top: 2.538em;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  width: 99.8188405797%;
+  margin: 0 auto;
+}
+
+.teammate1-contents h3,
+.teammate2-contents h3 {
+  margin: 1.385em auto 0;
+  font-family: 'Aller Light';
+  font-weight: Regular;
+}
+
+.teammate3-contents h3 {
+  margin: 1.462em auto 0;
+  font-family: 'Aller Light';
+  font-weight: Regular;
 }
 
 a {
@@ -13,8 +66,7 @@ a {
   position: absolute;
   top: 0;
   padding: 0.385em;
-  font-size: 0.813em;
-  line-height: 1.38;
+  font: 0.929em/1.38 Aller;
   color: rgb(92, 150, 210);
 }
 
@@ -23,29 +75,85 @@ a:active {
   color: rgb(160, 207, 255);
 }
 
+article {
+  float: left;
+}
+
+article h2 {
+  float: left;
+  font-family: 'Dustismo Roman';
+  font-weight: Regular;
+}
+
+div section {
+  position: relative;
+  width: 57.4999999999%;
+  height: 28.143em;
+}
+
 h1 {
   position: absolute;
   top: 0.9em;
   left: 0;
   z-index: 17;
   padding: 0.025em;
-  font: 2.5em/1.38 DustismoRoman;
+  font: 2.857em/1.38 DustismoRoman;
   color: rgb(225, 127, 0);
+}
+
+h2 {
+  font-size: 1.786em;
+  line-height: 1.38;
+  color: rgb(225, 127, 0);
+}
+
+h3 {
+  font-size: 0.929em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 181, 86);
+}
+
+h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 26;
+  width: 174px;
+  margin: 0 auto;
+  font: 0.857em/1.38 Aller;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+h5 {
+  margin: 0 auto;
+  font: Regular 0.786em/1.38 'Aller Light';
+  text-align: center;
+  color: rgb(253, 218, 135);
 }
 
 header {
   float: left;
   width: 100%;
-  height: 14.375em;
+  height: 16.429em;
 }
 
-img {
-  display: block;
+header img {
   position: absolute;
   top: 0;
   right: 0.0830078125%;
   z-index: 15;
   width: 204px;
+}
+
+header section {
+  width: 100%;
+}
+
+img {
+  display: block;
   height: auto;
   overflow: hidden;
 }
@@ -60,26 +168,30 @@ input {
   padding: 0 0.769em;
   border-radius: 0.154em;
   background-color: rgba(92, 150, 210, 0.33);
-  font: 0.813em/1.38 Aller-Light;
+  font-size: 0.929em;
+  line-height: 1.38;
   color: rgb(160, 207, 255);
 }
 
+input:active {
+  border-bottom: 0.077em solid rgb(225, 127, 0);
+}
+
 li {
-  height: 1.688em;
+  height: 1.929em;
 }
 
 nav {
   position: absolute;
-  top: 5.813em;
+  top: 6.643em;
   right: -0.1041666667%;
   z-index: 14;
   width: 49.0625%;
-  height: 1.688em;
+  height: 1.929em;
 }
 
 section {
   float: left;
-  width: 100%;
 }
 
 ul {
@@ -88,17 +200,82 @@ ul {
   left: -0.0040167096%;
   z-index: 13;
   width: 100%;
-  height: 1.688em;
+  height: 1.929em;
 }
 
-.about {
-  left: -0.3676470589%;
-  z-index: 3;
+.about-text p,
+.logo-collaborators p {
+  margin-bottom: 1em;
+}
+
+.about-contents {
+  width: 960px;
+  height: 25.5em;
+  margin: 4.5em auto 0;
+}
+
+.about-text,
+.introduction {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 14.286em;
+  margin-top: 0.714em;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(200, 200, 200);
 }
 
 .admin-bar {
-  height: 1.875em;
+  height: 2.143em;
   background-color: rgb(0, 0, 0);
+}
+
+.collaborators {
+  position: relative;
+  clear: both;
+  width: 100%;
+  height: 20.071em;
+  border-top: 0.214em solid rgb(225, 127, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.collaborators-contents {
+  position: absolute;
+  top: 2.071em;
+  left: 0;
+  right: 0;
+  z-index: 53;
+  width: 960px;
+  height: 13.429em;
+  margin: 0 auto;
+}
+
+.editorial {
+  position: relative;
+  clear: both;
+  width: 100%;
+  height: 28.429em;
+  border-top: 0.214em solid rgb(225, 127, 0);
+  background-color: rgb(50, 78, 107);
+}
+
+.editorial-contents {
+  position: absolute;
+  top: 1.357em;
+  left: 0;
+  right: 0;
+  z-index: 49;
+  width: 961px;
+  height: 22.286em;
+  margin: 0 auto;
+}
+
+.ehrc {
+  float: left;
+  margin: 2.5em 0 0 4.1424899999%;
+  font: 400 1.429em/0.18 Aller;
+  color: rgb(0, 0, 0);
 }
 
 .events {
@@ -109,7 +286,7 @@ ul {
 .header {
   position: relative;
   clear: both;
-  height: 12.5em;
+  height: 14.286em;
   background-color: rgb(12, 22, 31);
 }
 
@@ -120,19 +297,24 @@ ul {
   right: 0;
   z-index: 18;
   width: 960px;
-  height: 10.75em;
+  height: 12.286em;
   margin: 0 auto;
 }
 
-.hero-contents {
-  float: left;
+.hero {
   clear: both;
   width: 100%;
-  height: 27.875em;
+  height: 31.857em;
   background-image: url('../images/background.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+.hero-contents {
+  width: 960px;
+  height: 28.143em;
+  margin: 2.357em auto 0;
 }
 
 .home {
@@ -140,9 +322,44 @@ ul {
   z-index: 1;
 }
 
+.hrf {
+  float: left;
+  margin: 2.5em 0 0 8.51631%;
+  font: 400 1.429em/0.18 Aller;
+  color: rgb(0, 0, 0);
+}
+
+.img {
+  float: left;
+  width: 40.4166666666%;
+  height: 16.429em;
+  margin: 3.143em 0 0 1.99382%;
+  background-image: url('../images/image-placeholder-550.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
 .links {
   left: -0.4616477273%;
   z-index: 11;
+}
+
+.logo-collaborators {
+  width: 83.0208333333%;
+  height: 9.143em;
+  margin: 4.286em auto 0;
+}
+
+.object-slider {
+  float: left;
+  width: 100%;
+  height: 24.571em;
+  margin-top: 3.571em;
+  background-image: url('../images/image-placeholder-550.jpg');
+  background-repeat: no-repeat;
+  background-size: 500px auto;
+  background-position: center center;
 }
 
 .objects {
@@ -150,19 +367,111 @@ ul {
   z-index: 7;
 }
 
+.site-navigation .about {
+  left: -0.3676470589%;
+  z-index: 3;
+}
+
 .subtitle {
   position: absolute;
   top: 5.25em;
   left: 0;
   z-index: 16;
-  font-size: 1em;
-  line-height: 1.38;
+  font: 1.143em/1.38 Aller;
   color: rgb(92, 150, 210);
+}
+
+.teammate1 {
+  width: 99.8984375%;
+  height: 14.214em;
+  margin: 0 auto;
+  border-radius: 7.143em;
+  background: url('../images/Kate_2_small_square.jpg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.teammate1-contents {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 47;
+  width: 200px;
+  height: 17.857em;
+  margin: 2em 0 0 17.06556%;
+}
+
+.teammate2 {
+  width: 99.8984375%;
+  height: 14.214em;
+  margin: 0 auto;
+  border-radius: 7.143em;
+  background: url('../images/Mark_small.jpg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.teammate2-contents {
+  position: relative;
+  float: left;
+  z-index: 43;
+  width: 200px;
+  height: 17.857em;
+  margin: 2em 0 0 2.70552%;
+}
+
+.teammate3 {
+  width: 99.8984375%;
+  height: 14.214em;
+  margin: 0 auto;
+  border-radius: 7.143em;
+  background: url('../images/kate_astbury_square.jpg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.teammate3-contents {
+  position: relative;
+  float: left;
+  z-index: 39;
+  width: 200px;
+  height: 17.857em;
+  margin: 2em 0 0 2.70552%;
 }
 
 .timeline {
   left: -0.5770617938%;
   z-index: 5;
+}
+
+.about-2 {
+  clear: both;
+  width: 100%;
+  height: 34em;
+  margin-top: 0.143em;
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.image-1 {
+  float: left;
+  width: 200px;
+  margin-top: 2.429em;
+}
+
+.image-2 {
+  float: right;
+  width: 120px;
+  margin-right: 0.12155%;
 }
 
 .site-navigation ._container-3 {
