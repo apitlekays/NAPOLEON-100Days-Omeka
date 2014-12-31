@@ -1,11 +1,11 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: normal 0.875em/1.38 Aller-Light;
-  color: rgb(200, 200, 200);
+  font: Regular 0.875em/1.38 'Aller Light';
+  color: rgb(58, 58, 58);
 }
 
 .page-garage {
-  color: rgb(200, 200, 200);
+  color: rgb(58, 58, 58);
 }
 
 .about-contents article {
@@ -14,11 +14,25 @@ body {
   height: 25.5em;
 }
 
+.collaborators-contents h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 26;
+  width: 174px;
+  margin: 0 auto;
+  font: normal 0.857em/1.38 Aller;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
 .contributors-contents article {
   width: 100%;
   min-height: 14.286em;
   margin: 12.5em auto 0;
-  font: Regular 1em/1.38 'Aller Light';
+  font-size: 1em;
+  line-height: 1.38;
   text-align: center;
   color: rgb(200, 200, 200);
 }
@@ -27,13 +41,13 @@ body {
 .editorial-contents h2 {
   margin: 0 auto;
   font-family: 'Dustismo Roman';
-  font-weight: Regular;
   text-align: center;
 }
 
 .contributors-contents li {
   float: left;
-  font: Regular 0.929em/1.38 'Aller Light';
+  font-size: 0.929em;
+  line-height: 1.38;
   text-align: center;
   color: rgb(255, 181, 86);
 }
@@ -42,6 +56,24 @@ body {
   width: 27.0100502512%;
   height: 1.214em;
   margin: 1.929em auto 0;
+}
+
+.event-contents button {
+  width: 23.5171696149%;
+  height: 2em;
+  margin: 5.063em 0 0 1.99382%;
+  border-bottom-width: 0.125em;
+  border-radius: 0.188em;
+  font-family: Aller;
+  font-size: 1.143em;
+}
+
+.event-node h2 {
+  position: absolute;
+  top: 0;
+  left: -0.0027371764%;
+  z-index: 92;
+  font-family: 'Dustismo Roman';
 }
 
 .hero-contents article {
@@ -54,8 +86,51 @@ body {
 .masthead h2 {
   margin: 0.84em auto 0;
   font-family: 'Dustismo Roman';
-  font-weight: Regular;
   text-align: center;
+}
+
+.object h2 {
+  position: absolute;
+  top: 0;
+  left: 28.4441489361%;
+  z-index: 89;
+  font-family: 'Dustismo Roman';
+}
+
+.object img {
+  float: left;
+  clear: both;
+  width: 470px;
+  margin-top: 0.071em;
+}
+
+.object nav {
+  position: relative;
+  float: left;
+  z-index: 88;
+  width: 99.8706210191%;
+  height: 1.571em;
+  margin-top: 1.857em;
+}
+
+.object-contents h4 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 82;
+  width: 15.0925925925%;
+  height: 1.143em;
+  margin-top: 0.714em;
+}
+
+.object-description button {
+  clear: both;
+  width: 59.9992340686%;
+  height: 2.071em;
+  margin-top: 1.786em;
+  border-bottom-width: 0.143em;
+  border-radius: 0.214em;
+  font-size: 1em;
 }
 
 .object-display h2 {
@@ -67,6 +142,7 @@ body {
   width: 99.8188405797%;
   margin: 0 auto;
   font-family: DustismoRoman;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -78,6 +154,34 @@ body {
   z-index: 20;
   width: 99.8188405797%;
   margin: 0 auto;
+  font-family: Aller-Light;
+  font-weight: normal;
+}
+
+.object-location img {
+  float: left;
+  width: 470px;
+}
+
+.object-prev-next a {
+  float: left;
+  font-size: 1.143em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.related-links li {
+  float: left;
+  width: 100%;
+  height: 1.143em;
+}
+
+.related-links ul {
+  float: left;
+  clear: both;
+  width: 66.6666666666%;
+  height: 1.143em;
+  margin-top: 0.786em;
 }
 
 .summary-contents article {
@@ -89,21 +193,17 @@ body {
 .teammate1-contents h3,
 .teammate2-contents h3 {
   margin: 1.385em auto 0;
-  font-family: 'Aller Light';
-  font-weight: Regular;
 }
 
 .teammate3-contents h3 {
   margin: 1.462em auto 0;
-  font-family: 'Aller Light';
-  font-weight: Regular;
 }
 
 .weekly-objects a {
+  position: absolute;
+  top: 0;
   left: 0;
-  font-family: 'Aller Light';
   font-size: 1em;
-  font-weight: Regular;
   color: rgb(58, 58, 58);
 }
 
@@ -111,9 +211,8 @@ body {
   position: absolute;
   top: 0;
   left: -0.1221498372%;
-  z-index: 83;
+  z-index: 60;
   font-family: 'Dustismo Roman';
-  font-weight: Regular;
 }
 
 .weekly-objects li {
@@ -133,15 +232,30 @@ body {
 
 a {
   display: block;
-  position: absolute;
-  top: 0;
   line-height: 1.38;
 }
 
+.location h2,
+.object-description h2,
+.related-links h2,
 article h2 {
   float: left;
   font-family: 'Dustismo Roman';
-  font-weight: Regular;
+}
+
+button {
+  display: block;
+  float: left;
+  background-color: rgb(255, 181, 86);
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+button:active {
+  border-bottom-width: 0;
+  border-bottom-style: none;
 }
 
 div section {
@@ -156,7 +270,7 @@ h1 {
   left: 0;
   z-index: 17;
   padding: 0.025em;
-  font: 2.857em/1.38 DustismoRoman;
+  font: normal 2.857em/1.38 DustismoRoman;
   color: rgb(225, 127, 0);
 }
 
@@ -173,24 +287,28 @@ h3 {
   color: rgb(255, 181, 86);
 }
 
-h4 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 26;
-  width: 174px;
-  margin: 0 auto;
-  font: 0.857em/1.38 Aller;
-  text-align: center;
+.related-links a,
+h4 a {
+  float: left;
+  font-family: Aller;
+  font-size: 0.857em;
   color: rgb(0, 0, 0);
 }
 
 h5 {
   margin: 0 auto;
-  font: Regular 0.786em/1.38 'Aller Light';
+  font-size: 0.786em;
+  line-height: 1.38;
   text-align: center;
   color: rgb(253, 218, 135);
+}
+
+h6 {
+  float: left;
+  clear: both;
+  font-size: 0.786em;
+  line-height: 1.38;
+  color: rgb(58, 58, 58);
 }
 
 header {
@@ -199,12 +317,36 @@ header {
   height: 16.429em;
 }
 
+header a {
+  position: absolute;
+  top: 0;
+  padding: 0.385em;
+  font-family: Aller;
+  font-size: 0.929em;
+  font-weight: normal;
+  color: rgb(92, 150, 210);
+}
+
+header a:active {
+  border-bottom: 0.154em solid rgb(225, 127, 0);
+  color: rgb(160, 207, 255);
+}
+
 header img {
   position: absolute;
   top: 0;
   right: 0.0830078125%;
   z-index: 15;
   width: 204px;
+}
+
+header nav {
+  position: absolute;
+  top: 6.643em;
+  right: -0.1041666667%;
+  z-index: 14;
+  width: 49.0625%;
+  height: 1.929em;
 }
 
 header section {
@@ -227,34 +369,12 @@ input {
   padding: 0 0.769em;
   border-radius: 0.154em;
   background-color: rgba(92, 150, 210, 0.33);
-  font-size: 0.929em;
-  line-height: 1.38;
+  font: normal 0.929em/1.38 Aller-Light;
   color: rgb(160, 207, 255);
 }
 
 input:active {
   border-bottom: 0.077em solid rgb(225, 127, 0);
-}
-
-nav {
-  position: absolute;
-  top: 6.643em;
-  right: -0.1041666667%;
-  z-index: 14;
-  width: 49.0625%;
-  height: 1.929em;
-}
-
-nav a {
-  padding: 0.385em;
-  font-family: Aller;
-  font-size: 0.929em;
-  color: rgb(92, 150, 210);
-}
-
-nav a:active {
-  border-bottom: 0.154em solid rgb(225, 127, 0);
-  color: rgb(160, 207, 255);
 }
 
 nav li {
@@ -275,7 +395,9 @@ section {
 }
 
 .about-text p,
+.event-details p,
 .logo-collaborators p,
+.object-description-2 p,
 .summary-text p,
 div article p {
   margin-bottom: 1em;
@@ -294,14 +416,20 @@ div article p {
   width: 100%;
   min-height: 14.286em;
   margin-top: 0.714em;
-  font-size: 1em;
-  line-height: 1.38;
+  font: normal 1em/1.38 Aller-Light;
   color: rgb(200, 200, 200);
 }
 
 .admin-bar {
   height: 2.143em;
   background-color: rgb(0, 0, 0);
+}
+
+.calendar {
+  position: relative;
+  float: left;
+  width: 80px;
+  height: 8.071em;
 }
 
 .collaborators {
@@ -318,7 +446,7 @@ div article p {
   top: 2.071em;
   left: 0;
   right: 0;
-  z-index: 69;
+  z-index: 122;
   width: 960px;
   height: 13.429em;
   margin: 0 auto;
@@ -338,10 +466,27 @@ div article p {
   top: 2.143em;
   left: 0;
   right: 0;
-  z-index: 63;
+  z-index: 116;
   width: 796px;
   height: 35em;
   margin: 0 auto;
+}
+
+.date {
+  float: left;
+  margin: 0.25em 0 0 20.65972%;
+  font: 400 2.857em/1.38 Aller;
+  color: rgb(255, 255, 255);
+}
+
+.date-bg {
+  position: absolute;
+  top: 2.714em;
+  left: 0;
+  z-index: 96;
+  width: 81px;
+  height: 5.357em;
+  background-color: rgb(92, 150, 210);
 }
 
 .editorial {
@@ -358,7 +503,7 @@ div article p {
   top: 1.357em;
   left: 0;
   right: 0;
-  z-index: 65;
+  z-index: 118;
   width: 961px;
   height: 22.286em;
   margin: 0 auto;
@@ -378,9 +523,34 @@ div article p {
   background-color: rgb(222, 222, 222);
 }
 
+.event-contents {
+  width: 960px;
+  height: 16.071em;
+  margin: 2.857em auto 0;
+}
+
+.event-details {
+  position: absolute;
+  top: 2.857em;
+  left: 0;
+  z-index: 93;
+  width: 99.8604040072%;
+  min-height: 9.286em;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(58, 58, 58);
+}
+
+.event-node {
+  position: relative;
+  float: left;
+  width: 59.4400364203%;
+  height: 16.071em;
+  margin-left: 6.65365%;
+}
+
 .events {
-  left: -0.3693181819%;
-  z-index: 9;
+  position: relative;
 }
 
 .header {
@@ -424,7 +594,7 @@ div article p {
 
 .hrf {
   float: left;
-  margin: 2.5em 0 0 8.51631%;
+  margin: 2.5em 0 0 8.51239%;
   font: 400 1.429em/0.18 Aller;
   color: rgb(0, 0, 0);
 }
@@ -445,6 +615,16 @@ div article p {
   z-index: 11;
 }
 
+.location {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 80;
+  width: 48.9583333333%;
+  height: 14.857em;
+  margin-top: 2.357em;
+}
+
 .logo-collaborators {
   width: 83.0208333333%;
   height: 9.143em;
@@ -459,6 +639,66 @@ div article p {
   background-color: rgb(50, 78, 107);
 }
 
+.month {
+  float: left;
+  margin: 0.25em 0 0 30.55556%;
+  font: normal 1.429em/1.38 Aller;
+  color: rgb(160, 207, 255);
+}
+
+.month-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 98;
+  width: 81px;
+  height: 2.714em;
+  background-color: rgb(50, 78, 107);
+}
+
+.next {
+  margin-left: 78.20978%;
+}
+
+.object {
+  position: relative;
+  float: left;
+  z-index: 90;
+  width: 48.9583333333%;
+  height: 28.571em;
+  margin-top: 3.357em;
+}
+
+.object-contents {
+  position: relative;
+  width: 960px;
+  height: 64.5em;
+  margin: 0 auto;
+}
+
+.object-description .object-description {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 43.357em;
+  margin-top: 0.929em;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(58, 58, 58);
+}
+
+.object-location {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 12em;
+  margin-top: 0.429em;
+}
+
+.object-permission {
+  width: 98.0891719745%;
+}
+
 .object-slider {
   float: left;
   width: 100%;
@@ -470,14 +710,27 @@ div article p {
   background-position: center center;
 }
 
-.objects {
-  left: -0.3073770492%;
-  z-index: 7;
+.object-source {
+  margin-top: 1em;
+}
+
+.related-links {
+  float: left;
 }
 
 .site-navigation .about {
   left: -0.3676470589%;
   z-index: 3;
+}
+
+.site-navigation .events {
+  left: -0.3693181819%;
+  z-index: 9;
+}
+
+.site-navigation .objects {
+  left: -0.3073770492%;
+  z-index: 7;
 }
 
 .site-navigation .timeline {
@@ -490,7 +743,7 @@ div article p {
   top: 5.25em;
   left: 0;
   z-index: 16;
-  font: 1.143em/1.38 Aller;
+  font: normal 1.143em/1.38 Aller;
   color: rgb(92, 150, 210);
 }
 
@@ -508,8 +761,7 @@ div article p {
   width: 100%;
   min-height: 14.286em;
   margin-top: 0.929em;
-  font-size: 1em;
-  line-height: 1.38;
+  font: normal 1em/1.38 Aller-Light;
   color: rgb(58, 58, 58);
 }
 
@@ -603,6 +855,13 @@ div article p {
   background-attachment: fixed;
 }
 
+.events-2 {
+  clear: both;
+  width: 100%;
+  height: 22.929em;
+  background-color: rgba(92, 150, 210, 0.33);
+}
+
 .image-1 {
   float: left;
   width: 200px;
@@ -613,6 +872,28 @@ div article p {
   float: right;
   width: 120px;
   margin-right: 0.12155%;
+}
+
+.object-description-1 {
+  position: absolute;
+  top: 3.357em;
+  left: 57.4999999999%;
+  z-index: 77;
+  width: 42.5%;
+  height: 54.571em;
+}
+
+.objects-2 {
+  clear: both;
+  width: 100%;
+  height: 78.071em;
+  background-color: rgba(92, 150, 210, 0.33);
+}
+
+.related-links-1 {
+  width: 37.7777777777%;
+  height: 4.357em;
+  margin: 26.357em 0 0 8.54167%;
 }
 
 .timeline-2 {
@@ -667,27 +948,27 @@ div article p {
 
 .weekly-objects ._container-12 {
   top: 2.714em;
-  z-index: 81;
+  z-index: 58;
 }
 
 .weekly-objects ._container-13 {
   top: 1.357em;
-  z-index: 79;
+  z-index: 56;
 }
 
 .weekly-objects ._container-14 {
   top: 0;
-  z-index: 77;
+  z-index: 54;
 }
 
 .weekly-objects ._text-1 {
-  z-index: 80;
+  z-index: 57;
 }
 
 .weekly-objects ._text-2 {
-  z-index: 78;
+  z-index: 55;
 }
 
 .weekly-objects ._text-3 {
-  z-index: 76;
+  z-index: 53;
 }
