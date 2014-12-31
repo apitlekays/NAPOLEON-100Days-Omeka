@@ -1,6 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: Regular 0.875em/1.38 'Aller Light';
+  font: normal 0.875em/1.38 Aller-Light;
   color: rgb(200, 200, 200);
 }
 
@@ -18,8 +18,7 @@ body {
   width: 100%;
   min-height: 14.286em;
   margin: 12.5em auto 0;
-  font-size: 1em;
-  line-height: 1.38;
+  font: Regular 1em/1.38 'Aller Light';
   text-align: center;
   color: rgb(200, 200, 200);
 }
@@ -28,13 +27,13 @@ body {
 .editorial-contents h2 {
   margin: 0 auto;
   font-family: 'Dustismo Roman';
+  font-weight: Regular;
   text-align: center;
 }
 
 .contributors-contents li {
   float: left;
-  font-size: 0.929em;
-  line-height: 1.38;
+  font: Regular 0.929em/1.38 'Aller Light';
   text-align: center;
   color: rgb(255, 181, 86);
 }
@@ -55,6 +54,7 @@ body {
 .masthead h2 {
   margin: 0.84em auto 0;
   font-family: 'Dustismo Roman';
+  font-weight: Regular;
   text-align: center;
 }
 
@@ -67,7 +67,6 @@ body {
   width: 99.8188405797%;
   margin: 0 auto;
   font-family: DustismoRoman;
-  font-weight: normal;
   text-align: center;
 }
 
@@ -79,8 +78,6 @@ body {
   z-index: 20;
   width: 99.8188405797%;
   margin: 0 auto;
-  font-family: Aller-Light;
-  font-weight: normal;
 }
 
 .summary-contents article {
@@ -92,15 +89,21 @@ body {
 .teammate1-contents h3,
 .teammate2-contents h3 {
   margin: 1.385em auto 0;
+  font-family: 'Aller Light';
+  font-weight: Regular;
 }
 
 .teammate3-contents h3 {
   margin: 1.462em auto 0;
+  font-family: 'Aller Light';
+  font-weight: Regular;
 }
 
 .weekly-objects a {
   left: 0;
+  font-family: 'Aller Light';
   font-size: 1em;
+  font-weight: Regular;
   color: rgb(58, 58, 58);
 }
 
@@ -110,6 +113,7 @@ body {
   left: -0.1221498372%;
   z-index: 83;
   font-family: 'Dustismo Roman';
+  font-weight: Regular;
 }
 
 .weekly-objects li {
@@ -137,6 +141,7 @@ a {
 article h2 {
   float: left;
   font-family: 'Dustismo Roman';
+  font-weight: Regular;
 }
 
 div section {
@@ -151,7 +156,7 @@ h1 {
   left: 0;
   z-index: 17;
   padding: 0.025em;
-  font: normal 2.857em/1.38 DustismoRoman;
+  font: 2.857em/1.38 DustismoRoman;
   color: rgb(225, 127, 0);
 }
 
@@ -176,15 +181,14 @@ h4 {
   z-index: 26;
   width: 174px;
   margin: 0 auto;
-  font: normal 0.857em/1.38 Aller;
+  font: 0.857em/1.38 Aller;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
 h5 {
   margin: 0 auto;
-  font-size: 0.786em;
-  line-height: 1.38;
+  font: Regular 0.786em/1.38 'Aller Light';
   text-align: center;
   color: rgb(253, 218, 135);
 }
@@ -223,7 +227,8 @@ input {
   padding: 0 0.769em;
   border-radius: 0.154em;
   background-color: rgba(92, 150, 210, 0.33);
-  font: normal 0.929em/1.38 Aller-Light;
+  font-size: 0.929em;
+  line-height: 1.38;
   color: rgb(160, 207, 255);
 }
 
@@ -244,7 +249,6 @@ nav a {
   padding: 0.385em;
   font-family: Aller;
   font-size: 0.929em;
-  font-weight: normal;
   color: rgb(92, 150, 210);
 }
 
@@ -290,7 +294,8 @@ div article p {
   width: 100%;
   min-height: 14.286em;
   margin-top: 0.714em;
-  font: normal 1em/1.38 Aller-Light;
+  font-size: 1em;
+  line-height: 1.38;
   color: rgb(200, 200, 200);
 }
 
@@ -485,7 +490,7 @@ div article p {
   top: 5.25em;
   left: 0;
   z-index: 16;
-  font: normal 1.143em/1.38 Aller;
+  font: 1.143em/1.38 Aller;
   color: rgb(92, 150, 210);
 }
 
