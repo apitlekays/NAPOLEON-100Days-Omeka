@@ -1,6 +1,6 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: normal 0.875em/1.38 Aller-Light;
+  font: Regular 0.875em/1.38 'Aller Light';
   color: rgb(200, 200, 200);
 }
 
@@ -9,21 +9,53 @@ body {
 }
 
 .about-contents article {
+  float: left;
   width: 57.4999999999%;
   height: 25.5em;
 }
 
+.contributors-contents article {
+  width: 100%;
+  min-height: 14.286em;
+  margin: 12.5em auto 0;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(200, 200, 200);
+}
+
+.contributors-contents h2,
 .editorial-contents h2 {
   margin: 0 auto;
   font-family: 'Dustismo Roman';
-  font-weight: Regular;
   text-align: center;
 }
 
+.contributors-contents li {
+  float: left;
+  font-size: 0.929em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 181, 86);
+}
+
+.contributors-contents ul {
+  width: 27.0100502512%;
+  height: 1.214em;
+  margin: 1.929em auto 0;
+}
+
 .hero-contents article {
+  float: left;
   width: 36.9791666666%;
   height: 24.5em;
   margin: 1.929em 0 0 5.51921%;
+}
+
+.masthead h2 {
+  margin: 0.84em auto 0;
+  font-family: 'Dustismo Roman';
+  text-align: center;
 }
 
 .object-display h2 {
@@ -35,6 +67,7 @@ body {
   width: 99.8188405797%;
   margin: 0 auto;
   font-family: DustismoRoman;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -46,43 +79,64 @@ body {
   z-index: 20;
   width: 99.8188405797%;
   margin: 0 auto;
+  font-family: Aller-Light;
+  font-weight: normal;
+}
+
+.summary-contents article {
+  float: left;
+  width: 59.4791666666%;
+  height: 25.714em;
 }
 
 .teammate1-contents h3,
 .teammate2-contents h3 {
   margin: 1.385em auto 0;
-  font-family: 'Aller Light';
-  font-weight: Regular;
 }
 
 .teammate3-contents h3 {
   margin: 1.462em auto 0;
-  font-family: 'Aller Light';
-  font-weight: Regular;
+}
+
+.weekly-objects a {
+  left: 0;
+  font-size: 1em;
+  color: rgb(58, 58, 58);
+}
+
+.weekly-objects h2 {
+  position: absolute;
+  top: 0;
+  left: -0.1221498372%;
+  z-index: 83;
+  font-family: 'Dustismo Roman';
+}
+
+.weekly-objects li {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1.357em;
+}
+
+.weekly-objects ul {
+  position: relative;
+  float: left;
+  width: 56.0975609756%;
+  height: 4.071em;
+  margin-top: 3.357em;
 }
 
 a {
   display: block;
   position: absolute;
   top: 0;
-  padding: 0.385em;
-  font: 0.929em/1.38 Aller;
-  color: rgb(92, 150, 210);
-}
-
-a:active {
-  border-bottom: 0.154em solid rgb(225, 127, 0);
-  color: rgb(160, 207, 255);
-}
-
-article {
-  float: left;
+  line-height: 1.38;
 }
 
 article h2 {
   float: left;
   font-family: 'Dustismo Roman';
-  font-weight: Regular;
 }
 
 div section {
@@ -97,7 +151,7 @@ h1 {
   left: 0;
   z-index: 17;
   padding: 0.025em;
-  font: 2.857em/1.38 DustismoRoman;
+  font: normal 2.857em/1.38 DustismoRoman;
   color: rgb(225, 127, 0);
 }
 
@@ -122,14 +176,15 @@ h4 {
   z-index: 26;
   width: 174px;
   margin: 0 auto;
-  font: 0.857em/1.38 Aller;
+  font: normal 0.857em/1.38 Aller;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
 h5 {
   margin: 0 auto;
-  font: Regular 0.786em/1.38 'Aller Light';
+  font-size: 0.786em;
+  line-height: 1.38;
   text-align: center;
   color: rgb(253, 218, 135);
 }
@@ -168,17 +223,12 @@ input {
   padding: 0 0.769em;
   border-radius: 0.154em;
   background-color: rgba(92, 150, 210, 0.33);
-  font-size: 0.929em;
-  line-height: 1.38;
+  font: normal 0.929em/1.38 Aller-Light;
   color: rgb(160, 207, 255);
 }
 
 input:active {
   border-bottom: 0.077em solid rgb(225, 127, 0);
-}
-
-li {
-  height: 1.929em;
 }
 
 nav {
@@ -190,11 +240,24 @@ nav {
   height: 1.929em;
 }
 
-section {
-  float: left;
+nav a {
+  padding: 0.385em;
+  font-family: Aller;
+  font-size: 0.929em;
+  font-weight: normal;
+  color: rgb(92, 150, 210);
 }
 
-ul {
+nav a:active {
+  border-bottom: 0.154em solid rgb(225, 127, 0);
+  color: rgb(160, 207, 255);
+}
+
+nav li {
+  height: 1.929em;
+}
+
+nav ul {
   position: absolute;
   top: 0;
   left: -0.0040167096%;
@@ -203,8 +266,14 @@ ul {
   height: 1.929em;
 }
 
+section {
+  float: left;
+}
+
 .about-text p,
-.logo-collaborators p {
+.logo-collaborators p,
+.summary-text p,
+div article p {
   margin-bottom: 1em;
 }
 
@@ -221,8 +290,7 @@ ul {
   width: 100%;
   min-height: 14.286em;
   margin-top: 0.714em;
-  font-size: 1em;
-  line-height: 1.38;
+  font: normal 1em/1.38 Aller-Light;
   color: rgb(200, 200, 200);
 }
 
@@ -245,9 +313,29 @@ ul {
   top: 2.071em;
   left: 0;
   right: 0;
-  z-index: 53;
+  z-index: 69;
   width: 960px;
   height: 13.429em;
+  margin: 0 auto;
+}
+
+.contributors {
+  position: relative;
+  clear: both;
+  width: 100%;
+  height: 39.357em;
+  border-bottom: 0.214em solid rgb(50, 78, 107);
+  background-color: rgb(131, 80, 0);
+}
+
+.contributors-contents {
+  position: absolute;
+  top: 2.143em;
+  left: 0;
+  right: 0;
+  z-index: 63;
+  width: 796px;
+  height: 35em;
   margin: 0 auto;
 }
 
@@ -265,7 +353,7 @@ ul {
   top: 1.357em;
   left: 0;
   right: 0;
-  z-index: 49;
+  z-index: 65;
   width: 961px;
   height: 22.286em;
   margin: 0 auto;
@@ -276,6 +364,13 @@ ul {
   margin: 2.5em 0 0 4.1424899999%;
   font: 400 1.429em/0.18 Aller;
   color: rgb(0, 0, 0);
+}
+
+.embed-timeline {
+  float: left;
+  width: 100%;
+  height: 11.643em;
+  background-color: rgb(222, 222, 222);
 }
 
 .events {
@@ -351,6 +446,14 @@ ul {
   margin: 4.286em auto 0;
 }
 
+.masthead {
+  clear: both;
+  width: 100%;
+  height: 5.857em;
+  border-bottom: 0.214em solid rgb(225, 127, 0);
+  background-color: rgb(50, 78, 107);
+}
+
 .object-slider {
   float: left;
   width: 100%;
@@ -372,13 +475,37 @@ ul {
   z-index: 3;
 }
 
+.site-navigation .timeline {
+  left: -0.5770617938%;
+  z-index: 5;
+}
+
 .subtitle {
   position: absolute;
   top: 5.25em;
   left: 0;
   z-index: 16;
-  font: 1.143em/1.38 Aller;
+  font: normal 1.143em/1.38 Aller;
   color: rgb(92, 150, 210);
+}
+
+.summary-contents {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 25.714em;
+  margin-top: 3.786em;
+}
+
+.summary-text {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 14.286em;
+  margin-top: 0.929em;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(58, 58, 58);
 }
 
 .teammate1 {
@@ -400,7 +527,7 @@ ul {
   z-index: 47;
   width: 200px;
   height: 17.857em;
-  margin: 2em 0 0 17.06556%;
+  margin: 2em 0 0 14.98277%;
 }
 
 .teammate2 {
@@ -421,7 +548,7 @@ ul {
   z-index: 43;
   width: 200px;
   height: 17.857em;
-  margin: 2em 0 0 2.70552%;
+  margin: 2em 0 0 3.7461%;
 }
 
 .teammate3 {
@@ -442,12 +569,21 @@ ul {
   z-index: 39;
   width: 200px;
   height: 17.857em;
-  margin: 2em 0 0 2.70552%;
+  margin: 2em 0 0 3.7461%;
 }
 
-.timeline {
-  left: -0.5770617938%;
-  z-index: 5;
+.weekly-objects {
+  position: relative;
+  float: left;
+  width: 31.9791666666%;
+  height: 7.429em;
+  margin-left: 8.54167%;
+}
+
+.weekly-timeline {
+  width: 960px;
+  height: 41.143em;
+  margin: 0 auto;
 }
 
 .about-2 {
@@ -472,6 +608,13 @@ ul {
   float: right;
   width: 120px;
   margin-right: 0.12155%;
+}
+
+.timeline-2 {
+  clear: both;
+  width: 100%;
+  height: 48.714em;
+  background-color: rgba(92, 150, 210, 0.33);
 }
 
 .site-navigation ._container-3 {
@@ -515,4 +658,31 @@ ul {
   float: left;
   width: 11.3110539845%;
   margin-left: 4.86996%;
+}
+
+.weekly-objects ._container-12 {
+  top: 2.714em;
+  z-index: 81;
+}
+
+.weekly-objects ._container-13 {
+  top: 1.357em;
+  z-index: 79;
+}
+
+.weekly-objects ._container-14 {
+  top: 0;
+  z-index: 77;
+}
+
+.weekly-objects ._text-1 {
+  z-index: 80;
+}
+
+.weekly-objects ._text-2 {
+  z-index: 78;
+}
+
+.weekly-objects ._text-3 {
+  z-index: 76;
 }
