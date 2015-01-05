@@ -14,17 +14,25 @@ body {
   height: 25.5em;
 }
 
+.about-index-contents h2 {
+  margin-left: 33.87622%;
+}
+
 .collaborators-contents h4 {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 108;
+  z-index: 125;
   width: 174px;
   margin: 0 auto;
   font: normal 0.857em/1.38 Aller;
   text-align: center;
   color: rgb(0, 0, 0);
+}
+
+.contact-contents h2 {
+  margin-left: 24.23651%;
 }
 
 .contributors-contents article {
@@ -62,7 +70,6 @@ body {
   width: 23.5171696149%;
   height: 2em;
   margin: 5.063em 0 0 1.99382%;
-  border-bottom-width: 0.125em;
   border-radius: 0.188em;
   font-family: Aller;
   font-size: 1.143em;
@@ -72,7 +79,7 @@ body {
   position: absolute;
   top: 0;
   left: -0.0027371764%;
-  z-index: 19;
+  z-index: 36;
   font-family: 'Dustismo Roman';
 }
 
@@ -117,7 +124,7 @@ body {
   position: absolute;
   top: 0;
   left: 28.4441489361%;
-  z-index: 51;
+  z-index: 68;
   font-family: 'Dustismo Roman';
 }
 
@@ -131,7 +138,7 @@ body {
 .object nav {
   position: relative;
   float: left;
-  z-index: 50;
+  z-index: 67;
   width: 99.8706210191%;
   height: 1.571em;
   margin-top: 1.857em;
@@ -141,7 +148,7 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 44;
+  z-index: 61;
   width: 15.0925925925%;
   height: 1.143em;
   margin-top: 0.714em;
@@ -152,7 +159,6 @@ body {
   width: 59.9992340686%;
   height: 2.071em;
   margin-top: 1.786em;
-  border-bottom-width: 0.143em;
   border-radius: 0.214em;
   font-size: 1em;
 }
@@ -162,7 +168,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 118;
+  z-index: 135;
   width: 99.8188405797%;
   margin: 0 auto;
   font-family: DustismoRoman;
@@ -175,7 +181,7 @@ body {
   top: 2.538em;
   left: 0;
   right: 0;
-  z-index: 117;
+  z-index: 134;
   width: 99.8188405797%;
   margin: 0 auto;
   font-family: Aller-Light;
@@ -222,8 +228,8 @@ body {
   border-bottom: 0.154em solid rgb(225, 127, 0);
 }
 
-.searchresults input:active {
-  background-color: rgb(160, 207, 255);
+.social-container h2 {
+  margin-left: 32.2870599999%;
 }
 
 .summary-contents article {
@@ -253,7 +259,7 @@ body {
   position: absolute;
   top: 0;
   left: -0.1221498372%;
-  z-index: 62;
+  z-index: 79;
   font-family: 'Dustismo Roman';
 }
 
@@ -289,31 +295,14 @@ article h2 {
 button {
   display: block;
   float: left;
-  background-color: rgb(255, 181, 86);
   font-weight: 400;
   line-height: 1.38;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
-button:active {
-  border-bottom-width: 0;
-  border-bottom-style: none;
-}
-
 div input {
   position: absolute;
-  top: 11.308em;
-  right: 0.0830078125%;
-  z-index: 125;
-  width: 28.4169750231%;
-  font-family: Aller-Light;
-  font-weight: normal;
-  color: rgb(160, 207, 255);
-}
-
-div input:active {
-  border-bottom: 0.077em solid rgb(225, 127, 0);
 }
 
 div section {
@@ -322,11 +311,50 @@ div section {
   height: 28.143em;
 }
 
+footer {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 25em;
+  background-color: rgb(253, 177, 63);
+}
+
+footer button {
+  width: 38.1806344696%;
+  height: 1.313em;
+  margin: 13.625em 0 0 61.73651%;
+  border-radius: 0.188em;
+  background-color: rgb(222, 222, 222);
+  font-family: 'Dustismo Roman';
+  font-size: 1.143em;
+}
+
+footer h2 {
+  float: left;
+  font-family: 'Dustismo Roman';
+  color: rgb(53, 53, 53);
+}
+
+footer img {
+  float: left;
+  width: 42px;
+}
+
+footer input {
+  left: -0.0710227273%;
+  width: 100%;
+  height: 1.769em;
+  background-color: rgb(242, 242, 242);
+  font-family: 'Dustismo Roman';
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
 h1 {
   position: absolute;
   top: 0.9em;
   left: 0;
-  z-index: 142;
+  z-index: 159;
   padding: 0.025em;
   font: normal 2.857em/1.38 DustismoRoman;
   color: rgb(225, 127, 0);
@@ -335,7 +363,6 @@ h1 {
 h2 {
   font-size: 1.786em;
   line-height: 1.38;
-  color: rgb(225, 127, 0);
 }
 
 h3 {
@@ -394,15 +421,29 @@ header img {
   position: absolute;
   top: 0;
   right: 0.0830078125%;
-  z-index: 140;
+  z-index: 157;
   width: 204px;
+}
+
+header input {
+  top: 11.308em;
+  right: 0.0830078125%;
+  z-index: 142;
+  width: 28.4169750231%;
+  font-family: Aller-Light;
+  font-weight: normal;
+  color: rgb(160, 207, 255);
+}
+
+header input:active {
+  border-bottom: 0.077em solid rgb(225, 127, 0);
 }
 
 header nav {
   position: absolute;
   top: 6.643em;
   right: -0.1041666667%;
-  z-index: 139;
+  z-index: 156;
   width: 49.0625%;
   height: 1.929em;
 }
@@ -419,10 +460,7 @@ img {
 
 input {
   display: block;
-  height: 1.923em;
   padding: 0 0.769em;
-  border-radius: 0.154em;
-  background-color: rgba(92, 150, 210, 0.33);
   font-size: 0.929em;
   line-height: 1.38;
 }
@@ -435,13 +473,47 @@ nav ul {
   position: absolute;
   top: 0;
   left: -0.0040167096%;
-  z-index: 138;
+  z-index: 155;
   width: 100%;
   height: 1.929em;
 }
 
 section {
   float: left;
+}
+
+section button {
+  background-color: rgb(255, 181, 86);
+}
+
+section button:active {
+  border-bottom-width: 0;
+  border-bottom-style: none;
+}
+
+section h2 {
+  color: rgb(225, 127, 0);
+}
+
+section input {
+  height: 1.923em;
+  border-radius: 0.154em;
+  background-color: rgba(92, 150, 210, 0.33);
+}
+
+textarea {
+  display: block;
+  position: absolute;
+  top: 4em;
+  left: -0.0710227273%;
+  z-index: 6;
+  width: 100%;
+  height: 8.5em;
+  padding: 0.313em;
+  background-color: rgb(242, 242, 242);
+  font: 400 1.143em/1.38 'Dustismo Roman';
+  color: rgb(0, 0, 0);
+  resize: none;
 }
 
 .about-text p,
@@ -457,6 +529,24 @@ div article p {
   width: 960px;
   height: 25.5em;
   margin: 4.5em auto 0;
+}
+
+.about-index-contents {
+  float: left;
+  width: 31.9791666666%;
+  height: 19.286em;
+}
+
+.about-index-desc {
+  float: left;
+  clear: both;
+  width: 99.7362012987%;
+  min-height: 13.214em;
+  margin-top: 0.571em;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(58, 58, 58);
 }
 
 .about-text,
@@ -496,10 +586,27 @@ div article p {
   top: 2.071em;
   left: 0;
   right: 0;
-  z-index: 114;
+  z-index: 131;
   width: 960px;
   height: 13.429em;
   margin: 0 auto;
+}
+
+.contact-contents {
+  position: relative;
+  float: left;
+  width: 27.5%;
+  height: 20.429em;
+  margin-left: 8.54167%;
+}
+
+.contact-form {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 17.071em;
+  margin-top: 0.929em;
 }
 
 .contributors {
@@ -516,7 +623,7 @@ div article p {
   top: 2.143em;
   left: 0;
   right: 0;
-  z-index: 85;
+  z-index: 102;
   width: 796px;
   height: 35em;
   margin: 0 auto;
@@ -533,7 +640,7 @@ div article p {
   position: absolute;
   top: 2.714em;
   left: 0;
-  z-index: 23;
+  z-index: 40;
   width: 81px;
   height: 5.357em;
   background-color: rgb(92, 150, 210);
@@ -553,7 +660,7 @@ div article p {
   top: 1.357em;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 117;
   width: 961px;
   height: 22.286em;
   margin: 0 auto;
@@ -564,6 +671,11 @@ div article p {
   margin: 2.5em 0 0 4.1424899999%;
   font: 400 1.429em/0.18 Aller;
   color: rgb(0, 0, 0);
+}
+
+.email {
+  top: 2.385em;
+  z-index: 5;
 }
 
 .embed-timeline {
@@ -583,7 +695,7 @@ div article p {
   position: absolute;
   top: 2.857em;
   left: 0;
-  z-index: 20;
+  z-index: 37;
   width: 99.8604040072%;
   min-height: 9.286em;
   font-size: 1em;
@@ -618,6 +730,16 @@ div article p {
   margin: 3.214em 0 0 10%;
 }
 
+.fb {
+  margin-left: 27.78623%;
+}
+
+.footer-contents {
+  width: 960px;
+  height: 20.429em;
+  margin: 3.071em auto 0;
+}
+
 .header {
   position: relative;
   clear: both;
@@ -630,7 +752,7 @@ div article p {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 143;
+  z-index: 160;
   width: 960px;
   height: 12.286em;
   margin: 0 auto;
@@ -654,7 +776,7 @@ div article p {
 
 .home {
   left: -1.7323369566%;
-  z-index: 126;
+  z-index: 143;
 }
 
 .hrf {
@@ -677,7 +799,7 @@ div article p {
 
 .links {
   left: -0.4616477273%;
-  z-index: 136;
+  z-index: 153;
 }
 
 .links-page {
@@ -691,7 +813,7 @@ div article p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 42;
+  z-index: 59;
   width: 48.9583333333%;
   height: 14.857em;
   margin-top: 2.357em;
@@ -722,10 +844,15 @@ div article p {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 25;
+  z-index: 42;
   width: 81px;
   height: 2.714em;
   background-color: rgb(50, 78, 107);
+}
+
+.name {
+  top: 0;
+  z-index: 4;
 }
 
 .next {
@@ -735,7 +862,7 @@ div article p {
 .object {
   position: relative;
   float: left;
-  z-index: 52;
+  z-index: 69;
   width: 48.9583333333%;
   height: 28.571em;
   margin-top: 3.357em;
@@ -799,29 +926,44 @@ div article p {
 
 .site-navigation .about {
   left: -0.3676470589%;
-  z-index: 128;
+  z-index: 145;
 }
 
 .site-navigation .events {
   left: -0.3693181819%;
-  z-index: 134;
+  z-index: 151;
 }
 
 .site-navigation .objects {
   left: -0.3073770492%;
-  z-index: 132;
+  z-index: 149;
 }
 
 .site-navigation .timeline {
   left: -0.5770617938%;
-  z-index: 130;
+  z-index: 147;
+}
+
+.social-container {
+  float: left;
+  width: 23.5416666666%;
+  height: 20.429em;
+  margin-left: 8.4375%;
+}
+
+.social-links {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 3.071em;
+  margin-top: 14.929em;
 }
 
 .subtitle {
   position: absolute;
   top: 5.25em;
   left: 0;
-  z-index: 141;
+  z-index: 158;
   font: normal 1.143em/1.38 Aller;
   color: rgb(92, 150, 210);
 }
@@ -860,7 +1002,7 @@ div article p {
   position: relative;
   float: left;
   clear: both;
-  z-index: 98;
+  z-index: 115;
   width: 200px;
   height: 17.857em;
   margin: 2em 0 0 14.98277%;
@@ -881,7 +1023,7 @@ div article p {
 .teammate2-contents {
   position: relative;
   float: left;
-  z-index: 94;
+  z-index: 111;
   width: 200px;
   height: 17.857em;
   margin: 2em 0 0 3.7461%;
@@ -902,10 +1044,14 @@ div article p {
 .teammate3-contents {
   position: relative;
   float: left;
-  z-index: 90;
+  z-index: 107;
   width: 200px;
   height: 17.857em;
   margin: 2em 0 0 3.7461%;
+}
+
+.twitter {
+  margin-left: 12.5%;
 }
 
 .weekly-objects {
@@ -957,7 +1103,7 @@ div article p {
   position: absolute;
   top: 3.357em;
   left: 57.4999999999%;
-  z-index: 39;
+  z-index: 56;
   width: 42.5%;
   height: 54.571em;
 }
@@ -986,7 +1132,7 @@ div article p {
   position: absolute;
   top: 0;
   left: -0.0040167096%;
-  z-index: 127;
+  z-index: 144;
   width: 11.825192802%;
 }
 
@@ -1027,27 +1173,27 @@ div article p {
 
 .weekly-objects ._container-12 {
   top: 2.714em;
-  z-index: 60;
+  z-index: 77;
 }
 
 .weekly-objects ._container-13 {
   top: 1.357em;
-  z-index: 58;
+  z-index: 75;
 }
 
 .weekly-objects ._container-14 {
   top: 0;
-  z-index: 56;
+  z-index: 73;
 }
 
 .weekly-objects ._text-1 {
-  z-index: 59;
+  z-index: 76;
 }
 
 .weekly-objects ._text-2 {
-  z-index: 57;
+  z-index: 74;
 }
 
 .weekly-objects ._text-3 {
-  z-index: 55;
+  z-index: 72;
 }
